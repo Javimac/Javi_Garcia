@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {}
+
+nav {
+	background-color: #ccc;
+	border-bottom: 3px solid #888;
+}
+
+nav a {
+	border: 1px solid #000;
+	padding: 0 3px;
+	display: block;
+	font-size: 12px;
+	line-height: 40px;
+	color: #000;
+	text-decoration: none;
+}
+
+nav > ul > li {
+	display: block;
+	float: left;
+	margin: 0 2px 0 1px;
+	width: 32%;
+}
+nav > ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+nav ul ul li {
+	display: none;
+}
+
+li.selected {
+	background-color: red;
+	display: block;
+}
+
+@media (orientation:landscape) {
+	nav {
+		float: left;
+	}
+	nav > ul > li {
+		float: none;
+		width: 95%;
+	}
+}

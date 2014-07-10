@@ -1,0 +1,324 @@
+body {
+	 /*margin-top: 125px; adjust this if the height of the menu bar changes */
+	background-color:rgba(255,255,255,0.8);
+	height:100%;
+}
+
+.navbar-fixed-top .nav {
+	padding: 15px 0;
+}
+.carousel-indicators {
+    bottom:-10px;      
+}
+
+footer {
+	text-align:center;
+    margin-top: 44px;
+   
+
+	background-color:	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(14,48,141,0.42) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(14,48,141,0.42))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(14,48,141,0.42) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(14,48,141,0.42) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(14,48,141,0.42) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(14,48,141,0.42) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#6b0e308d',GradientType=0 ); /* IE6-9 */
+
+}
+
+.navbar {
+	border: 0px;
+	padding:3px;
+
+}
+
+
+.navbar-toggle {
+	margin-top:40px;
+	padding:13px 11px;
+}
+
+.navbar-inverse .navbar-toggle {
+	
+	border-color:#0E308D;
+	background-color:#0E308D;
+}
+.btn-lg, .btn-group-lg > .btn {
+	padding:10px 75px;
+}
+
+.contact-form {
+    margin-top:40px;
+}
+
+#map-canvas {
+        height: 100%;
+		height:250px;
+		
+}
+
+
+html {
+	background-image:url(../img/326983_1.jpg);
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:100%;
+}
+
+#wrap {
+	min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -60px;
+}
+
+hr {border-top:0px;}
+
+@media (min-width: 768px) {
+ element.style {
+    height: 100%;
+  }
+ html {
+    background-image:url(../img/326983_1.jpg);
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:100%;
+  }
+ body {
+	width:100%;
+	height:100%;
+  }
+  
+}
+
+@media (min-width: 992px) {
+element.style {
+    height: 100%;
+  }
+html {
+	background-image:url(../img/326983_1.jpg);
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:auto
+}
+body {
+	width:100%;
+	height:100%;
+  }
+    
+@media (max-width: 1200px) {
+.container {
+    width: 780px;
+}
+} 
+    
+    .btn-default {
+  color: white;
+  background-color: #0E308D;
+  border-color:#0E308D;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+    }
+}
+@media (min-width: 1200px) {
+html {
+	background-image:url(../img/326983_1.jpg);
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:100%;
+}
+body {
+	width:100%;
+	height:100%;
+  }
+
+   
+}   
+
+@media (max-width: 400px) {
+    .btn-lg, .btn-group-lg > .btn {
+        padding: 10px 60px;
+    }
+}
+.carousel-inner {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+}
+
+.carousel-control {
+  border-radius: 20px;
+}
+
+
+.panel-default {
+    
+    background-color:rgba(160, 160, 247, 0.16);
+    border-color: #0E308D;
+    border: 0px;
+    
+	  -moz-border-radius-topright: 50px;
+  -webkit-border-top-right-radius: 50px;
+  border-top-right-radius: 50px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+	
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+    
+}
+
+    
+.panel-default > .panel-heading {
+font-family: 'Droid Serif', serif;
+color:white;
+background-color: #0E308D;
+border-color: #0E308D;
+border: 0px;
+  -moz-border-radius-topright: 50px;
+  -webkit-border-top-right-radius: 50px;
+  border-top-right-radius: 50px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+
+
+.btn-default {
+  font-family: 'Droid Serif', serif;
+  color: white;
+  background-color: #0E308D;
+  border-color:#0E308D;
+  float:right;
+  
+    -moz-border-radius-topright: 50px;
+  -webkit-border-top-right-radius: 50px;
+  border-top-right-radius: 20px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #0E308D;
+  border-color: #0E308D;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.75);
+}
+
+p {
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+    color: #0E308D;
+    text-shadow: 2px 2px 5px rgba(150, 150, 150, 0.61);
+
+}
+h1 {
+    font-family: 'Droid Serif', serif;
+    color: #0E308D;
+    text-shadow: 2px 2px 5px rgba(150, 150, 150, 0.61);
+}
+h2 {
+    font-family: 'Droid Serif', serif;
+}
+
+li {
+    font-family: 'Lobster', cursive;
+    font-size: 35px
+}
+
+adress {
+    font-family: 'Droid Serif', serif;
+}
+ 
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+	margin-top: 80px;
+  }
+a {
+    text-decoration: underline;
+}
+
+.logotipo {
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-nav.navbar-right:last-child {
+        margin-top: 10px;
+}   
+#mapa {
+        margin-left: 50px;
+        margin-right: 50px;
+}
+}
+
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #0E308D;
+  background-color: white;
+  border-color: #0E308D;
+}
+
+aside {content:" ";
+	display:block;
+	clear:both;
+    float: left;
+}
+.social {
+	content:" ";
+	display:block;
+	clear:both;
+    margin-left: 20px;
+    margin-top: 85px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+    .social {
+        margin-top: 10px;
+}   
+}
+
+#social:after {
+	content:" ";
+	display:block;
+	clear:both;
+}
+.form {
+    margin:10px;
+}
+
+#oficina {
+    margin-top: 52px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {color:rgba(68,122,251,1.00);}
+

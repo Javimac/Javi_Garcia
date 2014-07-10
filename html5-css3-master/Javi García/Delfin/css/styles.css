@@ -1,0 +1,15 @@
+/* CSS Document */
+
+#logo {
+	background-image:url(../img/Logo%20transportes%20delfin%20simplificado.png);
+	background-size:cover;
+	height:100px;
+	width:200px;
+	font-size:0px;
+
+}
+
+.navbar-nav {
+	margin-top: 60px;
+	margin-left: 150px;
+}

@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.fondo_general {
+	background:#333;
+}
+
+body {
+	background-color:#999;
+	width:80%;
+	height:100px auto;
+	margin:10px auto;
+}
+
+body header h1{
+	margin-bottom:25px;
+	font-size:18px;}
+
+header h1 img {
+	margin:25px;
+}
+
+header h1 a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:36px;
+	color:#000;
+	text-decoration:none;
+}
+
+header nav {
+	width:0 auto;
+	margin:0 auto;
+}
+
+nav > ul > li {
+	list-style-type:none;
+	font-size:15px;
+	text-align:center;
+	float:left;
+	width:19%;
+	background: #ededed; /* Old browsers */
+	background: -moz-linear-gradient(top, #ededed 0%, #f6f6f6 37%, #c4c4c4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(37%,#f6f6f6), color-stop(100%,#c4c4c4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ededed 0%,#f6f6f6 37%,#c4c4c4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ededed 0%,#f6f6f6 37%,#c4c4c4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ededed 0%,#f6f6f6 37%,#c4c4c4 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ededed 0%,#f6f6f6 37%,#c4c4c4 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#c4c4c4',GradientType=0 ); /* IE6-9 */
+	border-right: 1px solid white;
+}
+
+nav > ul > li:active {
+	font-weight: bold;
+}
+
+nav > ul > li:last-child {border: 0;}
+
+nav > ul > li > a {
+	display: block;
+	line-height: 34px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+li ul {
+	list-style-type:none;
+	text-align:center;
+	padding:0;
+	background-color:white;
+	font-size:13px;
+	padding-top:7px;
+	position: absolute;
+	width:100%;
+}
+
+ul li ul {
+	display:none;
+	
+}
+
+ul li:hover ul {
+	display:block;
+}
+
+nav ul > li a {
+	text-decoration:none;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:black;
+}
+
+li ul li a {
+	padding-top:10px;
+	color:#9F9F9F;
+}
+
+nav ul li a:hover {
+	color:#009;
+	font-size:18px;
+}
+
+section.imagen_cambia figure {
+	padding:0;
+}
+
+.imagen_cambia {
+	margin:0 auto;
+	width:100%;
+	padding-top:10px;
+	float:left;
+}
+
+.cuadrados {
+	width:265px;
+	min-height:270px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	background-color:white;
+	border-radius:10px 10px 10px 10px;
+	float:left;
+	margin:0 auto;
+}
+
+body article.clearfix {
+	margin:0 auto;
+}
+
+article section h1 {
+	margin:10px;
+	position:relative;
+	font-family:'Source Sans Pro', sans-serif;
+	font-weight:lighter;
+	font-size:20px;
+	text-decoration:underline;
+}
+
+section.cuadrados h1 em {
+	font-family:'Source Sans Pro', sans-serif;
+	font-weight:bolder;
+	font-size:20px;
+}
+
+article p {
+	text-align:justify;
+	font-size:15px;
+}
+
+section nav {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+article section.cuadrados figure img {
+	border:1px;
+	border-style:solid;
+	border-color:#666;
+	border-radius:10px;
+	margin:0 auto;
+	margin-top:25px;
+	width:100%;
+	height:85px;
+	background-image:url(../imagenes/entrada.jpg);
+}
+
+section.cuadrados nav details p {
+	margin:0;
+	margin-top:5px;
+	font-size:14px;
+	font-family:inherit;
+}
+
+article section.cuadrados p {	
+	margin-left:10px;
+	margin-bottom:10px;
+	font-size:14px;
+}
+
+section.cuadrados nav a {
+	font-size:14px;
+	margin-bottom:5px;
+	margin-top:30px;
+	position:absolute;
+}
+
+nav details summary {
+	font-size:14px;
+	font-family:inherit;
+}
+
+/**.cuadraditos {
+	float:left;
+	width:150px;
+	height:150px;
+	border-radius:25px;
+	background-color:hsla(298,91%,49%,1.00);
+	-webkit-transition:width 3s, height 3s, background-color 3s, transform 3s, margin-left 3s;
+}
+
+.cuadraditos:hover {
+	margin-left:200px;
+	-webkit-transition-timing-function:ease-in-out 4s;
+	-webkit-transition:rotate(90deg);
+	background-color:hsla(0,0%,99%,1.00);
+}
+
+
+.cuadraditos2 {
+	float:left;
+	width:150px;
+	height:150px;
+	margin-left:300px;
+	border-radius:25px;
+	background-color:hsla(298,91%,49%,1.00);
+	transform:translate(0,0);
+	-webkit-transform:scale(50%,50%);
+
+}
+
+.cuadraditos2:hover {
+	margin-left:700px;
+	width:400px;
+	-webkit-transform:rotate(75deg);
+	background-color:hsla(0,0%,99%,1.00);
+}*/
+
+.clearfix:after{
+	content:" ";
+	display:block;
+	clear:both;
+}
+
+footer {
+	margin: 600px auto 0;
+	overflow:hidden;
+	list-style-type:none;
+}
+
+footer ul li {
+	float:left;
+	list-style-type:none;
+	width:39px;
+	height:38px;
+	margin-right:10px;
+}
+
+footer ul li a {
+	background-image:url(../imagenes/iconos-de-redes-sociales.png);
+	display:block;
+	height:38px;
+}
+
+.facebook a {
+	background-position:0px 0px;
+}
+
+.facebook a:hover {
+	background-position:40px 0px;
+}
+
+.twitter a {
+	background-position:0px 38px;
+}
+
+.twitter a:hover {
+	background-position:40px 38px;
+}
+
+footer section p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:12px;
+	text-align:center;
+}
+
+
+.verde{background:#4A9224;}
+.naranja{color:#EE9B22;}

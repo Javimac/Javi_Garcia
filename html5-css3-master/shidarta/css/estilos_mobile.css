@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+body.index {
+background-image:url(../imagenes/galeria.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+}
+*/
+
+header {background-color:#A3A2A2;
+height:60px;
+width:auto;
+}
+
+
+h1.carlos_s {font-size:25px;
+font:Tahoma, Geneva, sans-serif;
+text-align:center;
+padding-top:3px;
+margin:0 auto;
+}
+
+
+h2.Galeria {font-size:18px;
+font:Tahoma, Geneva, sans-serif;
+text-align:center;
+padding-top:5px;
+}
+
+
+nav {
+float:left;
+margin-top:15px;
+padding-top:8px;
+padding-bottom:8px;
+background-color:#CCC;
+}
+
+nav ul ul {display:none;
+}
+
+nav > ul > li {
+float:left;
+width:19%;
+margin:0 auto
+}
+
+ul {color:#FFF;
+}
+

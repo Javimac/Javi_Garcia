@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Boostrap</title>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+	<style>
+		#slideShowImages {
+		border: 1px gray solid;
+		background-color: lightgray;
+		}
+		#slideShowImages img {
+		border: 0.8em black solid;
+		padding: 3px;
+		}
+	</style>
+    
+    <script src="modernizr.custom.92278.js"></script>
+    <script>
+		Modernizr.load();
+	</script>
+    
+</head>
+
+<body ontouchstart role="document">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="container" role="main">
+	<header>
+    <h1>Clase de Bootstrap</h1>
+    
+		<div class="navbar navbar-inverse">
+		<div class="container">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="index.html">HOME</a>
+		</div>
+          <div class="navbar-collapse collapse" style="height: 1px;">
+			<ul class="nav navbar-nav">
+              <li class="active"><a href="../../FOTOGRAFIA/html/beauty_and_fashion.html">MODA & BELLEZA</a>
+              </li>
+              <li><a href="../../FOTOGRAFIA/html/digital_art.html">ARTE DIGITAL</a></li>
+              <li><a href="../../FOTOGRAFIA/html/nature.html">NATURALEZA</a></li>
+              <li><a href="../../FOTOGRAFIA/html/video.html">VIDEO</a></li>
+              <li><a href="../../FOTOGRAFIA/html/blog.html">BLOG</a></li>
+              <li><a href="../../FOTOGRAFIA/html/contacto.html">CONTACTO</a></li>
+ 
+              
+<!-- SI HUBIERA SUBMENÚ
+				<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>-->
+            </ul>
+          </div><!--/.nav-collapse -->
+
+
+	<div id="slideShowImages">
+    	<img class='imagen_cambia' src="../../FOTOGRAFIA/imagenes/imagen_variable01.jpg" width="100%" alt="slide 1"/>
+    	<img class='imagen_cambia' src="../../FOTOGRAFIA/imagenes/imagen_variable02.jpg" width="100%" alt="slide 2"/>
+    	<img class='imagen_cambia' src="../../FOTOGRAFIA/imagenes/imagen_variable03.jpg" width="100%" alt="slide 3"/>
+    	<img class='imagen_cambia' src="../../FOTOGRAFIA/imagenes/imagen_variable04.jpg" width="100%" alt="slide 4"/>
+    	<img class='imagen_cambia' src="../../FOTOGRAFIA/imagenes/imagen_variable05.jpg" width="100%" alt="slide 5"/>
+	</div>
+       <!--<img class="arrow" src="imagenes/arrows.png" alt="arrow"/>-->
+    </div>
+
+    </header>
+    
+<article class="clearfix">
+    <section class="cuadrados">
+	<h1>Acerca de mi</h1>
+    <details>
+    	<summary>Si quieres saber más sobre mi...</summary>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desde muy temprana edad me llamó este gran arte que es la fotografía. En mis comienzos, como aficionado, me incliné más hacia la naturaleza. Me gusta viajar acompañado de mi inseparable cámara y siempre he intentado aprovechar cada instante plasmando lo que mi ojo captaba y transmitía. Me considero una persona inquieta y como tal, me gusta experimentar, de ahí decidí combinar mi gran experiencia como artista digital creativo con la fotografía. El resultado me llevó a lograr una gran satisfacción y conseguir que este arte me motive cada día más.</p>
+    </details>    
+	<figure>
+    	<img src="imagenes/entrada.jpg" title="Acerca de mi" longdesc="Desde muy temprana edad me llamó este gran arte que es la fotografía. En mis comienzos, como aficionado, me incliné más hacia la naturaleza. Me gusta viajar acompañado de mi inseparable cámara y siempre he intentado aprovechar cada instante plasmando lo que mi ojo captaba y transmitía. Me considero una persona inquieta y como tal, me gusta experimentar, de ahí decidí combinar mi gran experiencia como artista digital creativo con la fotografía. El resultado me llevó a lograr una gran satisfacción y conseguir que este arte me motive cada día más.">
+    </figure>
+    </section>
+
+    </div>
+
+<section class="cuadrados">
+	<h1>Últimos <em>&nbsp;Beauty</em></h1>
+    <figure>
+    	<<img src="imagenes/entrada.jpg" title="fashion" alt="beauty_and_fashion">
+    </figure>
+    	<p>Echa un vistazo a mis últimos trabajos.</p>
+    	<a href="html/beauty_and_fashion.html" title"beauty_and_fashion">MODA & BELLEZA</a>
+</section>
+
+<section class="cuadrados">
+	<h1>Detrás de los disparos</h1>
+    <figure>
+    	<img src="imagenes/entrada.jpg" title="detras_disparos" alt="detrás de los disparos">
+    </figure>    
+    	<p>Echa un vistazo a los making of.</p>
+    	<a href="html/video.html" title="video">VIDEO</a>
+</section>
+
+<section class="cuadrados">
+	<h1>Detrás de los disparos</h1>
+    <figure>
+    	<img src="imagenes/entrada.jpg" title="detras_disparos" alt="detrás de los disparos">
+    </figure>    
+    	<p>Echa un vistazo a los making of.</p>
+    	<a href="html/video.html" title="video">VIDEO</a>
+</section>
+
+<section class="cuadrados">
+	<h1>Detrás de los disparos</h1>
+    <figure>
+    	<img src="imagenes/entrada.jpg" title="detras_disparos" alt="detrás de los disparos">
+    </figure>    
+    	<p>Echa un vistazo a los making of.</p>
+    	<a href="html/video.html" title="video">VIDEO</a>
+</section>
+
+<section class="cuadrados">
+	<h1>Lee mis últimas entradas</h1>
+    <figure>
+    	<img src="imagenes/entrada.jpg" title="ultimas_entradas" alt="últimas entradas">
+    </figure>  
+    	<a href="html/blog.html" title="blog">BLOG</a>
+	</section>
+</article>
+    
+</div>
+    <script src="java.js"></script>
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    
+<footer>
+	<div class="fb-like" data-href="https://www.facebook.com/MartinRomeroPhotography?fref=ts" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+</footer>
+
+</body>
+</html>

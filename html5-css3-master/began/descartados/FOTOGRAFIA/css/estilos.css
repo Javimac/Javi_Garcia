@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background-color:rgba(59,59,59,1.00);
+}
+
+body {
+	padding:10px auto;
+}
+
+body header h1 {
+	margin:0 auto;
+}
+
+header h1 a img {
+	width:80%;
+}
+
+body header nav {
+	background-color:rgba(0,0,0,1.00);
+	width:0 auto;
+	display:block;
+	margin:0;
+}
+
+/**nav ul {
+	list-style-type:none;
+	text-decoration:none;
+	text-align:left;
+	padding:5px;;
+}
+
+nav ul li a {
+	text-decoration:none;
+	color:white;
+	font-family:'Source Sans Pro', sans-serif;
+}
+
+nav ul ul li {
+	border-bottom: thin solid #999;
+	margin-left:5px;
+}
+
+nav ul ul li a {
+	color:#999;
+}*/
+
+#menuDesplegable {
+	list-style-type:none;
+	text-decoration:none;
+	text-align:left;
+	padding:5px;
+}
+
+.subMenu {
+	text-decoration:none;
+	color:white;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:16px;
+}
+
+#menuDesplegable li ul {
+	height: 0px;
+	opacity: 0;
+	overflow: hidden;
+	-webkit-transition: height 0.3s ease, opacity 0.3s;
+	transition: height 0.3s ease, opacity 0.3s;
+}
+
+#menuDesplegable ul.visible {
+	height: 135px;
+	opacity: 1;
+}
+
+ul.visible li a {
+	text-decoration:none;
+	color:white;
+	font-family:'Source Sans Pro', sans-serif;
+	font-weight:lighter;
+	font-size:14px;
+}
+
+ul.visible li {
+	border-bottom: thin solid #999;
+	margin-left:5px;
+	padding-top:3px;
+	text-align:right;
+}
+
+
+
+
+
+#slideshow {
+	background-colour:#F5F5F5;
+	border:1px solid #FFFFFF;
+	height:100%;
+	margin:0 auto;
+	width:100%;
+	-moz-box-shadow:0 0 22px #111;
+	-webkit-box-shadow:0 0 22px #111;
+	box-shadow:0 0 22px #111;
+}
+
+#slideshow ul {
+	height:100%;
+	left:10px;
+	list-style:none outside none;
+	overflow:hidden;
+	top:10px;
+	width:100%;
+}
+
+#slideshow li {
+	display:none;
+	z-index:10;
+}
+
+#slideshow li:first-child{
+	display:block;
+	z-index:1000;
+}
+
+#slideshow .slideActive {
+	z-index:1000;
+}
+
+#slideshow canvas {
+	display:none;
+	z-index:100;
+}
+
+#slideshow .previous {
+	background-position:left top;
+	left:0;
+}
+
+#slideshow .previous:hover {
+	background-position:left bottom;
+}
+
+#slideshow .next {
+	background-position:right top;
+	right:0;
+}
+
+#slideshow .next:hover {
+	background-position:right bottom;
+}
+
+.hs-wrapper img {
+	top: 0px;
+	left: 0px;
+	animation: showMe 0.8s linear infinite 0s forwards;
+	animation-play-state: paused;
+}
+
+.hs-wrapper:hover img{
+    animation-play-state: running;
+}
+
+@keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+    12.5% { visibility: visible; z-index: 100; }
+    25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+	
+
+.hs-wrapper img:nth-child(1) {
+	z-index: 9;
+}
+
+.hs-wrapper img:nth-child(2) {
+	animation-delay: 3s;
+	z-index: 8;
+}
+
+.hs-wrapper img:nth-child(3) {
+	animation-delay: 4s;
+	z-index: 7;
+}
+
+.hs-wrapper img:nth-child(4) {
+	animation-delay: 5s;
+	z-index: 6;
+}
+
+.hs-wrapper img:nth-child(5) {
+	animation-delay: 6s;
+	z-index: 5;
+}
+
+article.clearfix section.cuadrados {
+	width:80%;
+	max-height:auto;
+	background-color:#FFF;
+	border-radius:12px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:10px;
+	padding-top:3px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:15px;
+}
+
+article.clearfix section.cuadrados h1 {
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:21px;
+	font-weight:lighter;
+	color:#C0F;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+article.clearfix section.cuadrados h1 em {
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:21px;
+	font-weight:bolder;
+	color:#C0F;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+section.cuadrados figure {
+	margin:0 auto;
+}
+
+section.cuadrados figure img {
+	width:100%;
+	margin-top:10px;
+	margin-bottom:5px;
+	max-height:150px;
+	border-radius:12px;
+}
+
+section.cuadrados details {
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:15px;
+	font-style:italic;
+}
+
+section.cuadrados details p {
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:13px;
+	font-style:italic;
+	padding-top:5px;
+	text-align:justify;
+}
+
+article.clearfix section.cuadrados p {
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:15px;
+	color:#666;
+	font-weight:lighter;
+	margin:0;
+	margin-bottom:10px;
+}
+
+article.clearfix section.cuadrados a {
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	color:#C0F;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+footer ul.clearfix {
+	list-style-type:none;
+	margin:0px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+footer ul.clearfix li a {
+	background-image:url(../imagenes/iconos-de-redes-sociales.png);
+	display:block;
+	height:38px;
+	width:40px;
+}
+
+.facebook {
+	position:0px 0px;
+}
+
+.facebook:hover {
+	background-position:40px 0px;
+}
+
+.twitter {
+	background-position:0px 38px;
+}
+
+.twitter:hover {
+	background-position:40px 38px;
+}
+
+footer section {
+	list-style-type:none;
+	margin:0 auto;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:13px;
+	color:#FFF;
+}

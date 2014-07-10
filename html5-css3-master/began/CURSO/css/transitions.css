@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body h1 {
+	margin:0 auto;
+	text-align:center;
+}
+
+.transition_duration {
+	width:100px;
+	height:100px;
+	border-radius:15px;
+	background-color:#C09;
+	list-style-type:none;
+	margin-top:25px;
+	-webkit-transition:width 3s, height 3s, background-color 3s, transform 3s, margin-left 3s;
+}
+
+.transition_duration:hover {
+	-webkit-transition-duration:2s;
+	-webkit-transform:rotate(50deg);
+	-webkit-transition:cubic-bezier(0px,0px,100px,100px);
+	-webkit-transition-timing-function:ease-in-out 3s;
+}

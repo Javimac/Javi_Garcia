@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.etiqueta-amarilla {background-color:#F7F382;}
+
+.etiqueta-verde {background:#C5FD8C;}
+
+.font {font-size:26px;}
+
+.amarilla_rojo {background-color:#F7F382; color: #F00;}
+
+.carlos_s {
+font-size:24px;
+font-family:Verdana, Geneva, sans-serif;
+padding-top:20px;
+border-spacing:inherit;
+}
+
+.Galeria {
+font-size:18px;
+font-family:Verdana, Geneva, sans-serif;
+padding-top:0;
+padding-bottom:20px;
+border-spacing:inherit;	
+}
+
+.box {width:50px;
+height:50px;
+display:block;
+box-shadow: 3px 3px 5px #535050;
+border-width:3px;
+background-color:#CD0D10;
+-webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box:hover {background-color:#E4F808;
+width:150px;
+height:150px;
+border-radius:20px;
+box-shadow: 6px 6px 10px #B6B6B6;
+-webkit-transform:rotate(90deg);
+transform:rotate(90deg);
+}
+
+
+article {overflow:hidden;
+width: 80%;
+margin: 0 auto;
+}
+
+article.recuadro section {
+float:left;
+width:20%;
+border-radius: 20px;
+border-color:#939393;
+border-width:medium;
+border-style: solid;
+padding:10px;
+margin-top: 50px;
+margin-right:10px;
+}
+
+h2
+{
+font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:15px;
+}
+
+
+footer ul li{
+list-style-type:none;
+float:left;
+width: 63px;
+height:63px;
+}
+
+footer ul li a {background-image:url(../imagenes/sprits.png);
+display:block;
+width: 62px;
+height:62px;
+text-indent: -1000px;
+}
+
+
+.facebook a {background-position: 0 0;}
+.facebook a:hover {background-position: 0 -60px;}
+
+.twitter a {background-position: -85px 0;}
+.twitter a:hover {background-position: -85px -60px;}
+
+
+section.index {
+background-image:url(../imagenes/galeria.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+padding-top:60px;
+
+}
+
+header {
+  text-align:center;
+  height:105px;
+  background-color:#999;
+  color:#FFFFFF;
+  padding:5px;
+}
+
+a {color:#FFF;}
+
+a:hover {color:#666;}
+
+a:active {color:#000;}
+
+nav {
+background-color:#999;
+background-size:contain;
+position:fixed;
+top:130px;
+width:100%;
+}
+
+ul {
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+font-size:18px;
+}
+
+em {font-style:italic;}
+
+
+nav > ul > li {
+	float:left;
+	width:19%;
+margin:0 auto
+	}
+
+nav ul ul {
+	display:none;}
+
+nav li:hover ul {display:block;
+position:absolute;}
+
+p {text-align:justifys;}
+  
+section {padding-top:20px;}
+					
+nav li li {font-size:15px;}
+
+form .error {
+	border: 2px solid red;
+}

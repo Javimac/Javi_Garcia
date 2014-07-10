@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background-color:rgba(59,59,59,1.00);
+}
+
+body {
+	padding:0px;
+	width:80%;
+}
+
+body ul {
+	padding:5px;
+	margin:0px;
+	width:100%;
+
+}
+
+body ul li {
+	list-style-type:none;
+	text-decoration:none;
+}
+
+li:after { 
+   content: "";
+   display: block; 
+   clear: both;	
+}
+
+li img {
+	float:left;
+	border-radius:10px;
+	border-style:solid;
+	border:thick;
+	border-color:rgba(255,255,255,1.00);
+	padding:4px;
+}

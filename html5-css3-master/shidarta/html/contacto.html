@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario contacto</title>
+
+
+</head>
+<body>
+<header>
+    <h1>Contacta con nosotros</h1>
+</header>
+    
+ 	<article>
+    <section>
+   <form method="get" id="contacta">
+    <div>
+    <label for="firstname">Nombre:</label>
+    <input type="text" name="nombre" id="firstname"/>
+    </div>
+    
+    <div>
+    <label for="lastname">Apellidos:</label>
+    <input type="text" name="apellidos" id="lastname"/>
+    </div>
+    
+    <div>
+    <label for="fechanac">Fecha de nacimiento</label>
+     <input type="date" name="fecha" id="fechanac">
+     </div>
+     
+     <div>
+     <label for="correo">Email</label>
+     <input type="email" name="correo" id="correo">
+      </div>
+      
+     <div>
+     <label for="texto">Explícanos</label>
+     <br />
+     <textarea id="texto" name="texto" cols="50" rows="20"></textarea>
+     </div>
+    <input type="submit" name="enviar" value="enviar">
+    <br />
+    <label for="subirimagen">Foto:</label>
+    <input type="file" name="foto" id="subirimagen">
+    <br /><br />
+    
+    <fieldset>
+    <legend>Opciones</legend>
+    <br />
+    
+    <label>Si</label>
+    <input type="checkbox" name="si" value="opc1">
+    
+    
+    <label for="opc1_opc2">No</label>
+    <input type="checkbox" name="no" id="opc1_opc2">
+    <br /><br />
+    
+    <label>Quizás</label>
+    <input type="radio" name="radio" id="quizas" value="quizas">
+    <label>Puede ser</label>
+    <input type="radio" name="radio" id="puedeser" value="puedeser">
+    <br /><br />
+   </fieldset>
+    
+    </form>
+    </section>
+    </article>
+    
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <link rel="stylesheet" href="agile_carousel.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.js"></script>
+<script src="agile_carousel/agile_carousel.a1.1.js"></script>
+
+	<script src="../js/script.js"></script>
+
+</body>
+</html>
