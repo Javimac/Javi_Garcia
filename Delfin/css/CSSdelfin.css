@@ -322,3 +322,10 @@ aside {content:" ";
 
 .navbar-inverse .navbar-nav > li > a:hover {color:rgba(68,122,251,1.00);}
 
+@media (max-width: 640px) {
+    
+    aside a img { 
+        width: 80px;
+        height: 80px;
+    }
+}
