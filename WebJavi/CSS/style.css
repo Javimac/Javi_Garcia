@@ -4,7 +4,7 @@ html, body {
 
 #sb-site {
 	box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.3); /* Shadow cast onto the slidebars when opened. */
-	padding: 80px 0 30px 0;
+	padding: 80px 0 0px 0;
 }
 
 #adverts {
@@ -120,7 +120,7 @@ img.img-me {
 /* Slidebar Type */
 
 .sb-slidebar, .sb-slidebar h3 {
-	color: #F0F0F0;
+	color: black;
 }
 
 .sb-slidebar ul.sb-nav li a {
@@ -174,10 +174,61 @@ img.img-me {
 	}
 }
 
+
 @media (min-width: 992px) {
 
 }
 
 @media (min-width: 1200px) {
 
+}
+
+
+.col-sm-9 {
+    width: 100%;}
+p {
+    color: black;
+}
+.widescreen {
+    
+}
+
+.widescreen {
+    
+}
+
+.widescreen {
+    
+}
+
+.widescreen {
+    
+}
+
+.widescreen {
+    
+}
+
+.widescreen {
+    
+}
+
+.widescreen {
+    
+}
+
+.flex-video {
+    
+}
+
+.flex-video {
+    
+}
+
+.flex-video {
+    
+}
+
+.flex-video {
+    
 }
