@@ -168,16 +168,17 @@
 <div id="about">
 	<div class="row">
 		<div class="col-xs-12">
-			<h1>Slidebars</h1>
+			<h1>Demo Reel 2013</h1>
             <p>
-            <img src="img/imac.png" alt="Slidebars Logo" width="100%" height="100%"></p>
-            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
-<iframe allowfullscreen="" src="http://www.youtube.com/embed/6NbAAmDuv_8?feature=player_detailpage" frameborder="0"></iframe>
-				</div>
-        
-        
-     
-        
+                
+            <div class="videoUiWrapper thumbnail">
+  <video width="100%" height="100%" id="demo1">
+    <source src="pathtovideo/video.ogv" type="video/ogg"> 
+    <source src="pathtovideo/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>      
+            </p>
         
 			<p class="lead">Slidebars is a jQuery plugin for quickly and easily implementing app style off-canvas menus and sidebars into your website.</p>
 			<p>Slidebars was born from a reoccurring need to create off-canvas sliding mobile menus for responsive design. It's ultra-light at 1555 bytes (js) &amp; 660 bytes (css) when gzipped, uses hardware accelerated transitions where possible for quick and smooth animation, falling back to jQuery .animate() on un-supporting browsers.</p>
@@ -365,7 +366,14 @@
 				});
 			}) (jQuery);
 		</script>
-		
+		<!--video-->
+    <script>
+        $('#demo1').videoUI({
+  'autoHide':false,
+  'volumeMedia': 1
+});    
+    </script>    
+
 		<!-- Form Validation -->
 		<script src="http://plugins.adchsm.me/slidebars/scripts/form-validation.js"></script>
 	</body>

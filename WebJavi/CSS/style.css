@@ -189,46 +189,19 @@ img.img-me {
 p {
     color: black;
 }
-.widescreen {
-    
+
+
+
+.videoUiWrapper { 
+    background-image:url(../img/main%20photo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+	
 }
 
-.widescreen {
-    
-}
-
-.widescreen {
-    
-}
-
-.widescreen {
-    
-}
-
-.widescreen {
-    
-}
-
-.widescreen {
-    
-}
-
-.widescreen {
-    
-}
-
-.flex-video {
-    
-}
-
-.flex-video {
-    
-}
-
-.flex-video {
-    
-}
-
-.flex-video {
-    
+#demo1 {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 250px
 }
