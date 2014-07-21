@@ -191,17 +191,21 @@ p {
 }
 
 
-
-.videoUiWrapper { 
+.easyhtml5video {
     background-image:url(../img/main%20photo.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-	
+    background-size: cover;
+    padding-right: 250px;
+    padding-bottom: 300px;
+    
+
+    
+    
 }
 
-#demo1 {
-    padding-top: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 250px
+.monitor {
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 70px;
+    
 }

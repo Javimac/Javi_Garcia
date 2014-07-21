@@ -12,7 +12,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="CSS/bootstrap.min.css">
 		<link rel="stylesheet" href="CSS/slidebars.min.css">
-		
+		<link rel="stylesheet" href="CSS/leanbackPlayer.default.css">
+        
 		<link rel="stylesheet" href="CSS/style.css">
         <link rel="stylesheet" href="CSS/slidebars-theme.css">
         <link rel="stylesheet" href="CSS/misestilos.css">
@@ -171,13 +172,23 @@
 			<h1>Demo Reel 2013</h1>
             <p>
                 
-            <div class="videoUiWrapper thumbnail">
-  <video width="100%" height="100%" id="demo1">
-    <source src="pathtovideo/video.ogv" type="video/ogg"> 
-    <source src="pathtovideo/video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>      
+                
+<style type="text/css">.easyhtml5video span{display:none}</style>
+<div class="easyhtml5video"><video controls="controls" poster="./video/Roland_Garros_Final.jpg" style="width:100%" title="Demo reel" class="monitor">
+    <!--
+<source src="./video/Roland_Garros_Final.m4v" type="video/mp4" />
+    -->
+<source src="./video/Roland_Garros_Final.webm" type="video/webm" />
+<source src="./video/Roland_Garros_Final.ogv" type="video/ogg" />
+<source src="./video/Roland_Garros_Final.mp4" />
+<object type="application/x-shockwave-flash" data="./video/flashfox.swf" width="720" height="400" style="position:relative;">
+<param name="movie" value="./video/flashfox.swf" />
+<param name="allowFullScreen" value="true" />
+<param name="flashVars" value="autoplay=true&amp;controls=true&amp;fullScreenEnabled=true&amp;posterOnEnd=true&amp;loop=false&amp;poster=index.files/html5video/Roland_Garros_Final.jpg&amp;src=Roland_Garros_Final.m4v" />
+ <embed src="index.files/html5video/flashfox.swf" width="720" height="540" style="position:relative;"  flashVars="autoplay=true&amp;controls=true&amp;fullScreenEnabled=true&amp;posterOnEnd=true&amp;loop=false&amp;poster=index.files/html5video/Roland_Garros_Final.jpg&amp;src=Roland_Garros_Final.m4v"	allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
+<img alt="Roland Garros Final" src="index.files/html5video/Roland_Garros_Final.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
+</object></div>               
+                
             </p>
         
 			<p class="lead">Slidebars is a jQuery plugin for quickly and easily implementing app style off-canvas menus and sidebars into your website.</p>
@@ -367,6 +378,11 @@
 			}) (jQuery);
 		</script>
 		<!--video-->
+    
+<script src="index.files/html5video/html5ext.js" type="text/javascript"></script>    
+
+    <script src="js/leanbackPlayer.es.js"></script>
+
     <script>
         $('#demo1').videoUI({
   'autoHide':false,
