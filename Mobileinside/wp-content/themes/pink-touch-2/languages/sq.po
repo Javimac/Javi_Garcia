@@ -1,0 +1,231 @@
+# Translation of Pink Touch 2 in Albanian
+# This file is distributed under the same license as the Pink Touch 2 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-01 17:47:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Pink Touch 2\n"
+
+#: single.php:19
+msgid "<span class=\"newer\">Next post <span class=\"meta-nav\">&rarr;</span></span>"
+msgstr "<span class=\"newer\">Postimi pasues <span class=\"meta-nav\">&rarr;</span></span>"
+
+msgid "A theme that has a stellar mix of color, texture and typography. Designed by <a href=\"http://versiontexto.com/\">Kcmr</a>. It features a custom header, custom background, and maximum three widget areas in the footer. It comes with supports for several post formats including aside, gallery, image, quote, link, chat, and audio."
+msgstr ""
+
+#: single.php:18
+msgid "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Previous post</span>"
+msgstr "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Postimi i mëparshëm</span>"
+
+#: searchform.php:7
+msgid "Search"
+msgstr "Kërko"
+
+#: index.php:65
+msgid "Nothing Found."
+msgstr "Nuk U Gjet Gjë."
+
+#: index.php:70
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Na ndjeni, por nuk u gjetën përfundime për arkivin e kërkuar. Ndoshta kërkimi mund t&#8217;ju ndihë të gjeni një postim që ka lidhje me të."
+
+#: index.php:44
+msgid "Search Results for: %s"
+msgstr "Përfundime Kërkimi për: %s"
+
+#: index.php:27
+msgid "Archives"
+msgstr "Arkiva"
+
+#: index.php:25
+msgid "Category Archives: %s"
+msgstr "Arkiva Kategorie: %s"
+
+#: index.php:23
+msgid "Posted by: %s"
+msgstr "Postuar nga: %s"
+
+#: index.php:21
+msgid "Tag Archives: %s"
+msgstr "Arkiva Etiketash: %s"
+
+#: index.php:19
+msgid "Yearly Archives: %s"
+msgstr "Arkiva Vjetorë: %s"
+
+#: index.php:17
+msgid "Monthly Archives: %s"
+msgstr "Arkiva Mujorë: %s"
+
+#: image.php:54
+msgid "<p class=\"attachment-meta\"><span class=\"meta-prep meta-prep-entry-date\">Published</span> at <a href=\"%1$s\" title=\"Link to full-size image\">%2$s &times; %3$s</a> in <a href=\"%4$s\" title=\"Return to %5$s\" rel=\"gallery\">%5$s</a></p>"
+msgstr "<p class=\"attachment-meta\"><span class=\"meta-prep meta-prep-entry-date\">Botuar</span> te <a href=\"%1$s\" title=\"Lidhje për te figura në madhësi të plotë\">%2$s &times; %3$s</a> në <a href=\"%4$s\" title=\"Kthehuni te %5$s\" rel=\"gallery\">%5$s</a></p>"
+
+#: index.php:15
+msgid "Daily Archives: %s"
+msgstr "Arkiva Ditorë: %s"
+
+#: image.php:45
+msgid "Next &rarr;"
+msgstr "Pasuesi &rarr;"
+
+#: image.php:18
+msgid "<a href=\"%1$s\" title=\"Return to %2$s\" rel=\"bookmark\">%2$s</a>"
+msgstr "<a href=\"%1$s\" title=\"Kthehuni te %2$s\" rel=\"bookmark\">%2$s</a>"
+
+#: image.php:44
+msgid "&larr; Previous"
+msgstr "faqja I mëparshmi"
+
+#: functions.php:556
+msgid "Page %s"
+msgstr "Faqe %s"
+
+#: functions.php:330
+msgid "Reply <span>&darr;</span>"
+msgstr "Përgjigje <span>&darr;</span>"
+
+#: functions.php:323
+msgid "Your comment is awaiting moderation."
+msgstr "Komenti juaj po pret moderimin."
+
+#: functions.php:315
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s te %2$s"
+
+#: functions.php:298
+msgid "Pingback:"
+msgstr "Pingback: "
+
+#: functions.php:280
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Shihni krejt postimet nga %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:211
+msgid "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Older posts</span>"
+msgstr "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Postime më të vjetra</span>"
+
+#: functions.php:212
+msgid "<span class=\"newer\">Newer posts <span class=\"meta-nav\">&rarr;</span></span>"
+msgstr "<span class=\"newer\">Postime më të reja <span class=\"meta-nav\">&rarr;</span></span>"
+
+#: functions.php:276
+msgid "About %s"
+msgstr "Rreth %s"
+
+#: functions.php:199 functions.php:298 functions.php:318 image.php:69
+msgid "Edit"
+msgstr "Përpunoni"
+
+#: functions.php:195 image.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: functions.php:195 image.php:67
+msgid "% Comments"
+msgstr "% Koment"
+
+#: functions.php:195 image.php:67
+msgid "Leave a comment"
+msgstr "Lini një koment"
+
+#: functions.php:192 image.php:66
+msgid "Permalink"
+msgstr "Permalink"
+
+#: functions.php:189 image.php:62
+msgid "<p class=\"tag-list\">Tags: "
+msgstr "<p class=\"tag-list\">Etiketa: "
+
+#: functions.php:172
+msgid "Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span>"
+msgstr "Postuar nga <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span>"
+
+#: functions.php:182
+msgid "Posted in %s"
+msgstr "Postuar te %s"
+
+#: functions.php:165 functions.php:183
+msgid ", "
+msgstr ", "
+
+#: functions.php:161
+msgid "Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span> in %4$s"
+msgstr "Postuar nga <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span> te %4$s"
+
+#: functions.php:163 functions.php:174
+msgid "View all posts by %s"
+msgstr "Shihni tërë postimet nga %s"
+
+#: functions.php:128 functions.php:137 functions.php:146
+msgid "An optional widget in the footer"
+msgstr "Një widget opsional te fundfaqja"
+
+#: functions.php:135
+msgid "Footer Area Two"
+msgstr "Fusha e Dytë Për Fundfaqe"
+
+#: functions.php:144
+msgid "Footer Area Three"
+msgstr "Fusha e Tretë Për Fundfaqe"
+
+#: functions.php:126
+msgid "Footer Area One"
+msgstr "Fusha e Parë Për Fundfaqe"
+
+#: functions.php:16
+msgid "Primary Menu"
+msgstr "Menuja Parësore"
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr "Temë: %1$s nga %2$s."
+
+#: content-gallery.php:62
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Kjo galeri përmban <a %1$s>%2$s foto</a>."
+msgstr[1] "Kjo galeri përmban <a %1$s>%2$s foto</a>."
+
+#: content-audio.php:30 content-gallery.php:74 content-link.php:47
+#: content.php:32 image.php:40
+msgid "Pages:"
+msgstr "Faqe:"
+
+#: content-audio.php:29 content-gallery.php:30 content-link.php:46
+#: content.php:31 functions.php:251
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Vazhdoni leximin <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-audio.php:11 content-gallery.php:11 content-link.php:17
+#: content.php:12
+msgid "Featured"
+msgstr "E zgjedhur"
+
+#: content-audio.php:9 content-gallery.php:9 content-gallery.php:63
+#: content-link.php:15 content.php:10 image.php:66
+msgid "Permalink to %s"
+msgstr "Permalidhje te %s"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "Komentet janë mbyllur."
+
+#: comments.php:23 comments.php:34
+msgid "Newer comments &rarr;"
+msgstr "Komentet Më të Reja &rarr;"
+
+#: comments.php:22 comments.php:33
+msgid "&larr; Older comments"
+msgstr "&larr; Komentet Më të Vjetra"
+
+#: comments.php:15
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Një përgjigje ndaj &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s përgjigje ndaj &ldquo;%2$s&rdquo;"

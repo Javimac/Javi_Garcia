@@ -1,0 +1,56 @@
+/* =WP.com
+-------------------------------------------------------------- */
+
+.featured-content div.sharedaddy,
+.featured-content .pd-rating {
+	display: none;
+}
+#content div.sharedaddy {
+	margin: 0 0 1.5714285714em 0;
+}
+#content div.sharedaddy div.sd-block {
+	border-top: 1px dotted #b3b3b3;
+}
+.syntaxhighlighter {
+	overflow: auto;
+}
+#content .reblog-post {
+	border-color: #267172;
+}
+#wpstats {
+	display: block;
+	margin: 10px auto;
+	position: relative;
+	z-index: 999;
+}
+
+/* Flickr Widget (WP.com) */
+.widget_flickr #flickr_badge_uber_wrapper a {
+	color: #267172 !important;
+}
+.widget_flickr #flickr_badge_uber_wrapper a:hover {
+	text-decoration: underline !important;
+}
+.widget_flickr #flickr_badge_wrapper {
+	background-color: transparent !important;
+	border: none !important;
+}
+.widget_flickr table {
+	margin: 0 !important;
+}
+.widget_flickr .flickr-size-thumbnail {
+	margin: 0 auto;
+}
+.widget_flickr .flickr-size-thumbnail br,
+.widget_flickr .flickr-size-small br {
+	display: none;
+}
+.widget_flickr .flickr-size-thumbnail img {
+	display: block;
+	margin-bottom: 1em;
+}
+.widget_flickr .flickr-size-small img {
+	display: block;
+	margin-bottom: 0.7142857142em;
+	max-width: 100%;
+}

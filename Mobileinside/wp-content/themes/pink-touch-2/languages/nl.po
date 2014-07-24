@@ -1,0 +1,231 @@
+# Translation of Pink Touch 2 in Dutch
+# This file is distributed under the same license as the Pink Touch 2 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-01 17:47:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Pink Touch 2\n"
+
+#: single.php:19
+msgid "<span class=\"newer\">Next post <span class=\"meta-nav\">&rarr;</span></span>"
+msgstr "<span class=\"newer\">Volgend bericht <span class=\"meta-nav\">&rarr;</span></span>"
+
+msgid "A theme that has a stellar mix of color, texture and typography. Designed by <a href=\"http://versiontexto.com/\">Kcmr</a>. It features a custom header, custom background, and maximum three widget areas in the footer. It comes with supports for several post formats including aside, gallery, image, quote, link, chat, and audio."
+msgstr "Een thema met een schitterende mix van kleuren, structuur en typografie. Ontworpen door &lt;a href=\"http://versiontexto.com/\"&gt;Kcmr&lt;/a&gt;. Het bevat een aangepaste header, aangepaste achtergrond en maximaal drie wedget gebieden in de footer. Ondersteuning is inclusief voor verschillende post formaten, waaronder aside, gallerij, afbeelding, quote, link, chat en audio."
+
+#: single.php:18
+msgid "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Previous post</span>"
+msgstr "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Vorig Bericht</span>"
+
+#: searchform.php:7
+msgid "Search"
+msgstr "Zoeken"
+
+#: index.php:65
+msgid "Nothing Found."
+msgstr "Niets gevonden."
+
+#: index.php:70
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Excuses, er zijn geen resultaten gevonden voor het opgevraagde archief. Wellicht kan je de zoekfunctie gebruiken om naar gerelateerde berichten te zoeken."
+
+#: index.php:44
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: index.php:27
+msgid "Archives"
+msgstr "Archief"
+
+#: index.php:25
+msgid "Category Archives: %s"
+msgstr "Categorie archief: %s"
+
+#: index.php:23
+msgid "Posted by: %s"
+msgstr "Gepost door: %s"
+
+#: index.php:21
+msgid "Tag Archives: %s"
+msgstr "Tagarchief: %s"
+
+#: index.php:19
+msgid "Yearly Archives: %s"
+msgstr "Jaarlijks archief: %s"
+
+#: index.php:17
+msgid "Monthly Archives: %s"
+msgstr "Maandelijks archief: %s"
+
+#: image.php:54
+msgid "<p class=\"attachment-meta\"><span class=\"meta-prep meta-prep-entry-date\">Published</span> at <a href=\"%1$s\" title=\"Link to full-size image\">%2$s &times; %3$s</a> in <a href=\"%4$s\" title=\"Return to %5$s\" rel=\"gallery\">%5$s</a></p>"
+msgstr "<p class=\"attachment-meta\"><span class=\"meta-prep meta-prep-entry-date\">Gepubliceerd</span> op <a href=\"%1$s\" title=\"Link naar de volledige grootte van de afbeelding\">%2$s &times; %3$s</a> in <a href=\"%4$s\" title=\"Ga terug naar %5$s\" rel=\"gallery\">%5$s</a></p>"
+
+#: index.php:15
+msgid "Daily Archives: %s"
+msgstr "Dagelijks archief: %s"
+
+#: image.php:45
+msgid "Next &rarr;"
+msgstr "Volgende &rarr;"
+
+#: image.php:18
+msgid "<a href=\"%1$s\" title=\"Return to %2$s\" rel=\"bookmark\">%2$s</a>"
+msgstr "<a href=\"%1$s\" title=\"Ga terug naar %2$s\" rel=\"bookmark\">%2$s</a>"
+
+#: image.php:44
+msgid "&larr; Previous"
+msgstr "&larr; Vorige"
+
+#: functions.php:556
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: functions.php:330
+msgid "Reply <span>&darr;</span>"
+msgstr "Reageer <span>&darr;</span>"
+
+#: functions.php:323
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie is in afwachting van moderatie."
+
+#: functions.php:315
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#: functions.php:298
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:280
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Bekijk alle berichten van %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:211
+msgid "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Older posts</span>"
+msgstr "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Oudere berichten</span>"
+
+#: functions.php:212
+msgid "<span class=\"newer\">Newer posts <span class=\"meta-nav\">&rarr;</span></span>"
+msgstr "<span class=\"newer\">Nieuwere berichten <span class=\"meta-nav\">&rarr;</span></span>"
+
+#: functions.php:276
+msgid "About %s"
+msgstr "Over %s"
+
+#: functions.php:199 functions.php:298 functions.php:318 image.php:69
+msgid "Edit"
+msgstr "Bewerken"
+
+#: functions.php:195 image.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: functions.php:195 image.php:67
+msgid "% Comments"
+msgstr "% reacties"
+
+#: functions.php:195 image.php:67
+msgid "Leave a comment"
+msgstr "Een reactie plaatsen"
+
+#: functions.php:192 image.php:66
+msgid "Permalink"
+msgstr "Permalink"
+
+#: functions.php:189 image.php:62
+msgid "<p class=\"tag-list\">Tags: "
+msgstr "<p class=\"tag-list\">Tags:"
+
+#: functions.php:172
+msgid "Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span>"
+msgstr "Geplaatst door <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span>"
+
+#: functions.php:182
+msgid "Posted in %s"
+msgstr "Geplaatst in %s"
+
+#: functions.php:165 functions.php:183
+msgid ", "
+msgstr ", "
+
+#: functions.php:161
+msgid "Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span> in %4$s"
+msgstr "Geplaatst door <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span> in %4$s"
+
+#: functions.php:163 functions.php:174
+msgid "View all posts by %s"
+msgstr "Bekijk alle berichten van %s"
+
+#: functions.php:128 functions.php:137 functions.php:146
+msgid "An optional widget in the footer"
+msgstr "Een optionele widget in de voettekst"
+
+#: functions.php:135
+msgid "Footer Area Two"
+msgstr "Footergebied twee"
+
+#: functions.php:144
+msgid "Footer Area Three"
+msgstr "Footergebied drie"
+
+#: functions.php:126
+msgid "Footer Area One"
+msgstr "Footergebied een"
+
+#: functions.php:16
+msgid "Primary Menu"
+msgstr "Primair menu"
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr "Thema: %1$s door %2$s."
+
+#: content-gallery.php:62
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Deze galerij bevat <a %1$s>%2$s foto</a>."
+msgstr[1] "Deze galerij bevat <a %1$s>%2$s foto&#39;s</a>."
+
+#: content-audio.php:30 content-gallery.php:74 content-link.php:47
+#: content.php:32 image.php:40
+msgid "Pages:"
+msgstr "Pagina&#39;s:"
+
+#: content-audio.php:29 content-gallery.php:30 content-link.php:46
+#: content.php:31 functions.php:251
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lees verder <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-audio.php:11 content-gallery.php:11 content-link.php:17
+#: content.php:12
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: content-audio.php:9 content-gallery.php:9 content-gallery.php:63
+#: content-link.php:15 content.php:10 image.php:66
+msgid "Permalink to %s"
+msgstr "Permalink naar %s"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: comments.php:23 comments.php:34
+msgid "Newer comments &rarr;"
+msgstr "Nieuwe reacties &rarr;"
+
+#: comments.php:22 comments.php:33
+msgid "&larr; Older comments"
+msgstr "&larr; Oudere reacties"
+
+#: comments.php:15
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Een Reactie op &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Reacties op &ldquo;%2$s&rdquo;"

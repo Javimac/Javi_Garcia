@@ -1,0 +1,272 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pink Touch 2 1.3-wpcom\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/pink-touch-2\n"
+"POT-Creation-Date: 2014-06-01 08:46:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: comments.php:15
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:22 comments.php:33
+msgid "&larr; Older comments"
+msgstr ""
+
+#: comments.php:23 comments.php:34
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#: content-audio.php:9 content-gallery.php:9 content-gallery.php:63
+#: content-link.php:15 content.php:10 image.php:66
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-audio.php:11 content-gallery.php:11 content-link.php:17
+#: content.php:12
+msgid "Featured"
+msgstr ""
+
+#: content-audio.php:29 content-gallery.php:30 content-link.php:46
+#: content.php:31 functions.php:251
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-audio.php:30 content-gallery.php:74 content-link.php:47
+#: content.php:32 image.php:40
+msgid "Pages:"
+msgstr ""
+
+#: content-gallery.php:62
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] ""
+msgstr[1] ""
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:16
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:126
+msgid "Footer Area One"
+msgstr ""
+
+#: functions.php:128 functions.php:137 functions.php:146
+msgid "An optional widget in the footer"
+msgstr ""
+
+#: functions.php:135
+msgid "Footer Area Two"
+msgstr ""
+
+#: functions.php:144
+msgid "Footer Area Three"
+msgstr ""
+
+#: functions.php:161
+msgid ""
+"Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" "
+"title=\"%2$s\" rel=\"author\">%3$s</a></span> in %4$s"
+msgstr ""
+
+#: functions.php:163 functions.php:174
+msgid "View all posts by %s"
+msgstr ""
+
+#: functions.php:165 functions.php:183
+msgid ", "
+msgstr ""
+
+#: functions.php:172
+msgid ""
+"Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" "
+"title=\"%2$s\" rel=\"author\">%3$s</a></span>"
+msgstr ""
+
+#: functions.php:182
+msgid "Posted in %s"
+msgstr ""
+
+#: functions.php:189 image.php:62
+msgid "<p class=\"tag-list\">Tags: "
+msgstr ""
+
+#: functions.php:192 image.php:66
+msgid "Permalink"
+msgstr ""
+
+#: functions.php:195 image.php:67
+msgid "Leave a comment"
+msgstr ""
+
+#: functions.php:195 image.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: functions.php:195 image.php:67
+msgid "% Comments"
+msgstr ""
+
+#: functions.php:199 functions.php:298 functions.php:318 image.php:69
+msgid "Edit"
+msgstr ""
+
+#: functions.php:211
+msgid ""
+"<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Older posts</"
+"span>"
+msgstr ""
+
+#: functions.php:212
+msgid ""
+"<span class=\"newer\">Newer posts <span class=\"meta-nav\">&rarr;</span></"
+"span>"
+msgstr ""
+
+#: functions.php:276
+msgid "About %s"
+msgstr ""
+
+#: functions.php:280
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:298
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:315
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:323
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:330
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#: functions.php:556
+msgid "Page %s"
+msgstr ""
+
+#: image.php:18
+msgid "<a href=\"%1$s\" title=\"Return to %2$s\" rel=\"bookmark\">%2$s</a>"
+msgstr ""
+
+#: image.php:44
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:45
+msgid "Next &rarr;"
+msgstr ""
+
+#: image.php:54
+msgid ""
+"<p class=\"attachment-meta\"><span class=\"meta-prep meta-prep-entry-date"
+"\">Published</span> at <a href=\"%1$s\" title=\"Link to full-size image\">"
+"%2$s &times; %3$s</a> in <a href=\"%4$s\" title=\"Return to %5$s\" rel="
+"\"gallery\">%5$s</a></p>"
+msgstr ""
+
+#: index.php:15
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: index.php:17
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: index.php:19
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: index.php:21
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: index.php:23
+msgid "Posted by: %s"
+msgstr ""
+
+#: index.php:25
+msgid "Category Archives: %s"
+msgstr ""
+
+#: index.php:27
+msgid "Archives"
+msgstr ""
+
+#: index.php:44
+msgid "Search Results for: %s"
+msgstr ""
+
+#: index.php:65
+msgid "Nothing Found."
+msgstr ""
+
+#: index.php:70
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: searchform.php:7
+msgid "Search"
+msgstr ""
+
+#: single.php:18
+msgid ""
+"<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Previous post</"
+"span>"
+msgstr ""
+
+#: single.php:19
+msgid ""
+"<span class=\"newer\">Next post <span class=\"meta-nav\">&rarr;</span></span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Pink Touch 2"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://theme.wordpress.com/themes/pink-touch-2/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A theme that has a stellar mix of color, texture and typography. Designed by "
+"<a href=\"http://versiontexto.com/\">Kcmr</a>. It features a custom header, "
+"custom background, and maximum three widget areas in the footer. It comes "
+"with supports for several post formats including aside, gallery, image, "
+"quote, link, chat, and audio."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://theme.wordpress.com/"
+msgstr ""

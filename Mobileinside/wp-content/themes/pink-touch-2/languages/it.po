@@ -1,0 +1,231 @@
+# Translation of Pink Touch 2 in Italian
+# This file is distributed under the same license as the Pink Touch 2 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-01 17:47:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Pink Touch 2\n"
+
+#: single.php:19
+msgid "<span class=\"newer\">Next post <span class=\"meta-nav\">&rarr;</span></span>"
+msgstr "<span class=\"newer\">Prossimo articolo <span class=\"meta-nav\">&rarr;</span></span>"
+
+msgid "A theme that has a stellar mix of color, texture and typography. Designed by <a href=\"http://versiontexto.com/\">Kcmr</a>. It features a custom header, custom background, and maximum three widget areas in the footer. It comes with supports for several post formats including aside, gallery, image, quote, link, chat, and audio."
+msgstr "Un tema con una combinazione stellare di colori, motivi e tipografia. Ideato da <a href=\"http://versiontexto.com/\">Kcmr</a>. Ha testata e sfondo personalizzabili e fino a tre aree widget a piè di pagina. Supporta vari formati di articolo, inclusi a margine, galleria, immagine, citazione, link, chat e audio."
+
+#: single.php:18
+msgid "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Previous post</span>"
+msgstr "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Articolo precedente</span>"
+
+#: searchform.php:7
+msgid "Search"
+msgstr "Cerca"
+
+#: index.php:65
+msgid "Nothing Found."
+msgstr "Nessun risultato."
+
+#: index.php:70
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Spiacente, ma non sono stati trovati risultati per l'archivio richiesto. Forse impostare una ricerca potrebbe essere utile."
+
+#: index.php:44
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: index.php:27
+msgid "Archives"
+msgstr "Archivi"
+
+#: index.php:25
+msgid "Category Archives: %s"
+msgstr "Archivi categoria: %s"
+
+#: index.php:23
+msgid "Posted by: %s"
+msgstr "Pubblicato da: %s"
+
+#: index.php:21
+msgid "Tag Archives: %s"
+msgstr "Archivi tag: %s"
+
+#: index.php:19
+msgid "Yearly Archives: %s"
+msgstr "Archivi annuali: %s"
+
+#: index.php:17
+msgid "Monthly Archives: %s"
+msgstr "Archivio mensile:%s"
+
+#: image.php:54
+msgid "<p class=\"attachment-meta\"><span class=\"meta-prep meta-prep-entry-date\">Published</span> at <a href=\"%1$s\" title=\"Link to full-size image\">%2$s &times; %3$s</a> in <a href=\"%4$s\" title=\"Return to %5$s\" rel=\"gallery\">%5$s</a></p>"
+msgstr "<p class=\"attachment-meta\"><span class=\"meta-prep meta-prep-entry-date\">Pubblicato</span> su <a href=\"%1$s\" title=\"Link a immagine a dimensione originale\">%2$s &times; %3$s</a> in <a href=\"%4$s\" title=\"Ritorna a %5$s\" rel=\"gallery\">%5$s</a></p>"
+
+#: index.php:15
+msgid "Daily Archives: %s"
+msgstr "Archivi giornalieri: %s"
+
+#: image.php:45
+msgid "Next &rarr;"
+msgstr "Successivo &rarr;"
+
+#: image.php:18
+msgid "<a href=\"%1$s\" title=\"Return to %2$s\" rel=\"bookmark\">%2$s</a>"
+msgstr "<a href=\"%1$s\" title=\"Ritorna a %2$s\" rel=\"bookmark\">%2$s</a>"
+
+#: image.php:44
+msgid "&larr; Previous"
+msgstr "&larr; Precedente"
+
+#: functions.php:556
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: functions.php:330
+msgid "Reply <span>&darr;</span>"
+msgstr "Rispondi <span>&darr;</span>"
+
+#: functions.php:323
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento deve ancora venire moderato."
+
+#: functions.php:315
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s alle %2$s"
+
+#: functions.php:298
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:280
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Visualizza tutti gli articoli di %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:211
+msgid "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Older posts</span>"
+msgstr "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Articoli precedenti</span>"
+
+#: functions.php:212
+msgid "<span class=\"newer\">Newer posts <span class=\"meta-nav\">&rarr;</span></span>"
+msgstr "<span class=\"newer\">Articoli più recenti <span class=\"meta-nav\">&rarr;</span></span>"
+
+#: functions.php:276
+msgid "About %s"
+msgstr "Informazioni su %s"
+
+#: functions.php:199 functions.php:298 functions.php:318 image.php:69
+msgid "Edit"
+msgstr "Modifica"
+
+#: functions.php:195 image.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: functions.php:195 image.php:67
+msgid "% Comments"
+msgstr "% commenti"
+
+#: functions.php:195 image.php:67
+msgid "Leave a comment"
+msgstr "Lascia un commento"
+
+#: functions.php:192 image.php:66
+msgid "Permalink"
+msgstr "Permalink"
+
+#: functions.php:189 image.php:62
+msgid "<p class=\"tag-list\">Tags: "
+msgstr "<p class=\"tag-list\">Tag: "
+
+#: functions.php:172
+msgid "Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span>"
+msgstr "Pubblicato da <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span>"
+
+#: functions.php:182
+msgid "Posted in %s"
+msgstr "Pubblicato su %s"
+
+#: functions.php:165 functions.php:183
+msgid ", "
+msgstr ", "
+
+#: functions.php:161
+msgid "Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span> in %4$s"
+msgstr "Pubblicato da <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span> in %4$s"
+
+#: functions.php:163 functions.php:174
+msgid "View all posts by %s"
+msgstr "Vedi tutti gli articoli di %s"
+
+#: functions.php:128 functions.php:137 functions.php:146
+msgid "An optional widget in the footer"
+msgstr "Un widget opzionale nel piè di pagina"
+
+#: functions.php:135
+msgid "Footer Area Two"
+msgstr "Piè di pagina Area Due"
+
+#: functions.php:144
+msgid "Footer Area Three"
+msgstr "Piè di pagina Area Tre"
+
+#: functions.php:126
+msgid "Footer Area One"
+msgstr "Piè di pagina Area One"
+
+#: functions.php:16
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s di %2$s."
+
+#: content-gallery.php:62
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Questa galleria contiene <a %1$s>%2$s immagine</a>."
+msgstr[1] "Questa galleria contiene <a %1$s>%2$s immagini</a>."
+
+#: content-audio.php:30 content-gallery.php:74 content-link.php:47
+#: content.php:32 image.php:40
+msgid "Pages:"
+msgstr "Pagine: "
+
+#: content-audio.php:29 content-gallery.php:30 content-link.php:46
+#: content.php:31 functions.php:251
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua a leggere <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-audio.php:11 content-gallery.php:11 content-link.php:17
+#: content.php:12
+msgid "Featured"
+msgstr "In evidenza"
+
+#: content-audio.php:9 content-gallery.php:9 content-gallery.php:63
+#: content-link.php:15 content.php:10 image.php:66
+msgid "Permalink to %s"
+msgstr "Permalink a %s"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: comments.php:23 comments.php:34
+msgid "Newer comments &rarr;"
+msgstr "Commenti più recenti &rarr;"
+
+#: comments.php:22 comments.php:33
+msgid "&larr; Older comments"
+msgstr "&larr; Commenti meno recenti"
+
+#: comments.php:15
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Una risposta a &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s risposte a &ldquo;%2$s&rdquo;"

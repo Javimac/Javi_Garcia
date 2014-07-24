@@ -1,0 +1,229 @@
+# Translation of Pink Touch 2 in Japanese
+# This file is distributed under the same license as the Pink Touch 2 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-02 08:57:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Pink Touch 2\n"
+
+#: single.php:19
+msgid "<span class=\"newer\">Next post <span class=\"meta-nav\">&rarr;</span></span>"
+msgstr "<span class=\"newer\">新しい投稿 <span class=\"meta-nav\">&rarr;</span></span>"
+
+msgid "A theme that has a stellar mix of color, texture and typography. Designed by <a href=\"http://versiontexto.com/\">Kcmr</a>. It features a custom header, custom background, and maximum three widget areas in the footer. It comes with supports for several post formats including aside, gallery, image, quote, link, chat, and audio."
+msgstr "色、質感、タイポグラフィの優れたバランスが特徴の、<a href=\"http://versiontexto.com/\">Kcmr</a> によるデザインのテーマです。カスタムヘッダー、カスタム背景、最大3つのフッターウィジェットエリアが含まれており、アサイド・ギャラリー・画像・引用・リンク・チャット・音声の投稿フォーマットに対応しています。"
+
+#: single.php:18
+msgid "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Previous post</span>"
+msgstr "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> 過去の投稿</span>"
+
+#: searchform.php:7
+msgid "Search"
+msgstr "検索"
+
+#: index.php:65
+msgid "Nothing Found."
+msgstr "何も見つかりませんでした。"
+
+#: index.php:70
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "リクエストされたアーカイブには何も見つかりませんでした。検索すれば関連投稿が見つかるかもしれません。"
+
+#: index.php:44
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: index.php:27
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: index.php:25
+msgid "Category Archives: %s"
+msgstr "カテゴリー別アーカイブ: %s"
+
+#: index.php:23
+msgid "Posted by: %s"
+msgstr "投稿者 %s"
+
+#: index.php:21
+msgid "Tag Archives: %s"
+msgstr "タグ別アーカイブ: %s"
+
+#: index.php:19
+msgid "Yearly Archives: %s"
+msgstr "年別アーカイブ: %s"
+
+#: index.php:17
+msgid "Monthly Archives: %s"
+msgstr "月別アーカイブ: %s"
+
+#: image.php:54
+msgid "<p class=\"attachment-meta\"><span class=\"meta-prep meta-prep-entry-date\">Published</span> at <a href=\"%1$s\" title=\"Link to full-size image\">%2$s &times; %3$s</a> in <a href=\"%4$s\" title=\"Return to %5$s\" rel=\"gallery\">%5$s</a></p>"
+msgstr "<p class=\"attachment-meta\"><span class=\"meta-prep meta-prep-entry-date\"></span><a href=\"%1$s\" title=\"フルサイズ画像へのリンク\">%2$s &times; %3$s</a> @ <a href=\"%4$s\" title=\"%5$s へ戻る\" rel=\"gallery\">%5$s</a></p>"
+
+#: index.php:15
+msgid "Daily Archives: %s"
+msgstr "日別アーカイブ: %s"
+
+#: image.php:45
+msgid "Next &rarr;"
+msgstr "次へ &rarr;"
+
+#: image.php:18
+msgid "<a href=\"%1$s\" title=\"Return to %2$s\" rel=\"bookmark\">%2$s</a>"
+msgstr "<a href=\"%1$s\" title=\"%2$s へ戻る\" rel=\"bookmark\">%2$s</a>"
+
+#: image.php:44
+msgid "&larr; Previous"
+msgstr "&larr; 前へ"
+
+#: functions.php:556
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: functions.php:330
+msgid "Reply <span>&darr;</span>"
+msgstr "返信 <span>&darr;</span>"
+
+#: functions.php:323
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: functions.php:315
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: functions.php:298
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+#: functions.php:280
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s の投稿をすべて表示 <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:211
+msgid "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Older posts</span>"
+msgstr "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> 過去の投稿</span>"
+
+#: functions.php:212
+msgid "<span class=\"newer\">Newer posts <span class=\"meta-nav\">&rarr;</span></span>"
+msgstr "<span class=\"newer\">新しい投稿 <span class=\"meta-nav\">&rarr;</span></span>"
+
+#: functions.php:276
+msgid "About %s"
+msgstr "%s について"
+
+#: functions.php:199 functions.php:298 functions.php:318 image.php:69
+msgid "Edit"
+msgstr "編集"
+
+#: functions.php:195 image.php:67
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: functions.php:195 image.php:67
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: functions.php:195 image.php:67
+msgid "Leave a comment"
+msgstr "コメントする"
+
+#: functions.php:192 image.php:66
+msgid "Permalink"
+msgstr "パーマリンク"
+
+#: functions.php:189 image.php:62
+msgid "<p class=\"tag-list\">Tags: "
+msgstr "<p class=\"tag-list\">タグ: "
+
+#: functions.php:172
+msgid "Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span>"
+msgstr "投稿者: <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span>"
+
+#: functions.php:182
+msgid "Posted in %s"
+msgstr "カテゴリー: %s"
+
+#: functions.php:165 functions.php:183
+msgid ", "
+msgstr ", "
+
+#: functions.php:161
+msgid "Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span> in %4$s"
+msgstr "投稿者: <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span> | カテゴリー: %4$s"
+
+#: functions.php:163 functions.php:174
+msgid "View all posts by %s"
+msgstr "%s のすべての投稿を表示"
+
+#: functions.php:128 functions.php:137 functions.php:146
+msgid "An optional widget in the footer"
+msgstr "フッターのオプションウィジェット"
+
+#: functions.php:135
+msgid "Footer Area Two"
+msgstr "フッターエリア2"
+
+#: functions.php:144
+msgid "Footer Area Three"
+msgstr "フッターエリア3"
+
+#: functions.php:126
+msgid "Footer Area One"
+msgstr "フッターエリア1"
+
+#: functions.php:16
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: content-gallery.php:62
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "このギャラリーには<a %1$s>%2$s枚の写真</a>が含まれています。"
+
+#: content-audio.php:30 content-gallery.php:74 content-link.php:47
+#: content.php:32 image.php:40
+msgid "Pages:"
+msgstr "ページ:"
+
+#: content-audio.php:29 content-gallery.php:30 content-link.php:46
+#: content.php:31 functions.php:251
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-audio.php:11 content-gallery.php:11 content-link.php:17
+#: content.php:12
+msgid "Featured"
+msgstr "注目"
+
+#: content-audio.php:9 content-gallery.php:9 content-gallery.php:63
+#: content-link.php:15 content.php:10 image.php:66
+msgid "Permalink to %s"
+msgstr "%s へのパーマリンク"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:23 comments.php:34
+msgid "Newer comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:22 comments.php:33
+msgid "&larr; Older comments"
+msgstr "&larr; 古いコメント"
+
+#: comments.php:15
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "「%2$s」への%1$s件のフィードバック"

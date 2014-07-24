@@ -1,0 +1,229 @@
+# Translation of Pink Touch 2 in Korean
+# This file is distributed under the same license as the Pink Touch 2 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-01 17:47:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Pink Touch 2\n"
+
+#: single.php:19
+msgid "<span class=\"newer\">Next post <span class=\"meta-nav\">&rarr;</span></span>"
+msgstr "<span class=\"newer\">다음 글 <span class=\"meta-nav\">&rarr;</span></span>"
+
+msgid "A theme that has a stellar mix of color, texture and typography. Designed by <a href=\"http://versiontexto.com/\">Kcmr</a>. It features a custom header, custom background, and maximum three widget areas in the footer. It comes with supports for several post formats including aside, gallery, image, quote, link, chat, and audio."
+msgstr ""
+
+#: single.php:18
+msgid "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Previous post</span>"
+msgstr "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> 이전 글</span>"
+
+#: searchform.php:7
+msgid "Search"
+msgstr "검색"
+
+#: index.php:65
+msgid "Nothing Found."
+msgstr "아무 것도 찾을 수 없습니다."
+
+#: index.php:70
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "죄송합니다, 하지만 요청하신 보관물을 찾을 수 없습니다. 검색이 관련된 글을 찾는데 도움이 될 수도 있습니다."
+
+#: index.php:44
+msgid "Search Results for: %s"
+msgstr "검색 결과: %s"
+
+#: index.php:27
+msgid "Archives"
+msgstr "글목록"
+
+#: index.php:25
+msgid "Category Archives: %s"
+msgstr "카테고리 보관물: %s"
+
+#: index.php:23
+msgid "Posted by: %s"
+msgstr "게시자: %s"
+
+#: index.php:21
+msgid "Tag Archives: %s"
+msgstr "태그 보관물: %s"
+
+#: index.php:19
+msgid "Yearly Archives: %s"
+msgstr "연간 보관물: %s"
+
+#: index.php:17
+msgid "Monthly Archives: %s"
+msgstr "월간 보관물: %s"
+
+#: image.php:54
+msgid "<p class=\"attachment-meta\"><span class=\"meta-prep meta-prep-entry-date\">Published</span> at <a href=\"%1$s\" title=\"Link to full-size image\">%2$s &times; %3$s</a> in <a href=\"%4$s\" title=\"Return to %5$s\" rel=\"gallery\">%5$s</a></p>"
+msgstr "<p class=\"attachment-meta\"><span class=\"meta-prep meta-prep-entry-date\"></span><a href=\"%1$s\" title=\"전체 크기 이미지 링크\">%2$s &times; %3$s</a>으(로) <a href=\"%4$s\" title=\"%5$s(으)로 돌아가기\" rel=\"gallery\">%5$s</a>에 게시됨</p>"
+
+#: index.php:15
+msgid "Daily Archives: %s"
+msgstr "일간 보관물: %s"
+
+#: image.php:45
+msgid "Next &rarr;"
+msgstr "다음 &rarr;"
+
+#: image.php:18
+msgid "<a href=\"%1$s\" title=\"Return to %2$s\" rel=\"bookmark\">%2$s</a>"
+msgstr "<a href=\"%1$s\" title=\"%2$s(으)로 이동\" rel=\"bookmark\">%2$s</a>"
+
+#: image.php:44
+msgid "&larr; Previous"
+msgstr "&larr; 이전"
+
+#: functions.php:556
+msgid "Page %s"
+msgstr "페이지 %s"
+
+#: functions.php:330
+msgid "Reply <span>&darr;</span>"
+msgstr "댓글달기 <span>&darr;</span>"
+
+#: functions.php:323
+msgid "Your comment is awaiting moderation."
+msgstr "입력한 댓글이 검토를 기다리고 있습니다."
+
+#: functions.php:315
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: functions.php:298
+msgid "Pingback:"
+msgstr "핑백:"
+
+#: functions.php:280
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s에 의해 작성된 모든 글을 보기<span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:211
+msgid "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> Older posts</span>"
+msgstr "<span class=\"older\"><span class=\"meta-nav\">&larr;</span> 이전 글</span>"
+
+#: functions.php:212
+msgid "<span class=\"newer\">Newer posts <span class=\"meta-nav\">&rarr;</span></span>"
+msgstr "<span class=\"newer\">최근 글 <span class=\"meta-nav\">&rarr;</span></span>"
+
+#: functions.php:276
+msgid "About %s"
+msgstr "%s에 관하여"
+
+#: functions.php:199 functions.php:298 functions.php:318 image.php:69
+msgid "Edit"
+msgstr "편집"
+
+#: functions.php:195 image.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: functions.php:195 image.php:67
+msgid "% Comments"
+msgstr "댓글 %개"
+
+#: functions.php:195 image.php:67
+msgid "Leave a comment"
+msgstr "댓글 남기기"
+
+#: functions.php:192 image.php:66
+msgid "Permalink"
+msgstr "퍼머링크"
+
+#: functions.php:189 image.php:62
+msgid "<p class=\"tag-list\">Tags: "
+msgstr "<p class=\"tag-list\">태그:"
+
+#: functions.php:172
+msgid "Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span>"
+msgstr "게시자: <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span>"
+
+#: functions.php:182
+msgid "Posted in %s"
+msgstr "%s에 게시됨"
+
+#: functions.php:165 functions.php:183
+msgid ", "
+msgstr ", "
+
+#: functions.php:161
+msgid "Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span> in %4$s"
+msgstr "게시자: <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span>, 카테고리: %4$s"
+
+#: functions.php:163 functions.php:174
+msgid "View all posts by %s"
+msgstr "%s의 모든 글 보기"
+
+#: functions.php:128 functions.php:137 functions.php:146
+msgid "An optional widget in the footer"
+msgstr "푸터의 선택적인 위젯"
+
+#: functions.php:135
+msgid "Footer Area Two"
+msgstr "푸터 영역 2"
+
+#: functions.php:144
+msgid "Footer Area Three"
+msgstr "푸터 영역 3"
+
+#: functions.php:126
+msgid "Footer Area One"
+msgstr "푸터 영역 1"
+
+#: functions.php:16
+msgid "Primary Menu"
+msgstr "기본 메뉴"
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr "테마: %1$s(%2$s 제작)."
+
+#: content-gallery.php:62
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "이 갤러리는 <a %1$s>%2$s 개의 사진을</a>포함하고 있습니다."
+
+#: content-audio.php:30 content-gallery.php:74 content-link.php:47
+#: content.php:32 image.php:40
+msgid "Pages:"
+msgstr "페이지:"
+
+#: content-audio.php:29 content-gallery.php:30 content-link.php:46
+#: content.php:31 functions.php:251
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "계속 읽기 <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-audio.php:11 content-gallery.php:11 content-link.php:17
+#: content.php:12
+msgid "Featured"
+msgstr "추천"
+
+#: content-audio.php:9 content-gallery.php:9 content-gallery.php:63
+#: content-link.php:15 content.php:10 image.php:66
+msgid "Permalink to %s"
+msgstr "%s 의 고유링크"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "댓글은 닫혔습니다."
+
+#: comments.php:23 comments.php:34
+msgid "Newer comments &rarr;"
+msgstr "새로운 댓글 &rarr;"
+
+#: comments.php:22 comments.php:33
+msgid "&larr; Older comments"
+msgstr "&larr; 예전 댓글"
+
+#: comments.php:15
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo;에 대한 %1$s개의 응답"
