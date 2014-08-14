@@ -87,15 +87,8 @@ ul.navbar-nav {
 
 footer {
 	margin-top: 30px;
-    text-align: center;
 }
 
-h1 {
-    text-align: center;
-}
-h2 {
-    text-align: center;
-}
 /* Slidebars */
 
 .sb-slidebar {
@@ -171,6 +164,25 @@ img.img-me {
 	top: 2px;
 }
 
+@media (min-width: 768px) {
+	ul.navbar-nav {
+		display: block;
+	}
+	
+	#logo {
+		text-align: left;
+	}
+}
+
+
+@media (min-width: 992px) {
+
+}
+
+@media (max-width: 1200px) {
+    body {background-color: red;}
+
+}
 
 
 .col-sm-9 {
@@ -200,137 +212,49 @@ p {
         
 }
 
-/* media querys */
-
-@media (min-width: 300px) {
-.video1 {
-    width: 93%;
-    height: 140px;}
-.vimeo1 {
-    background-image: url(../img/main%20photo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 5px;  
-    padding-bottom: 60px;
-    padding-left: 17px;
-}    
-    
-    
-@media (min-width: 360px) {
-.video1 {
-    width: 93%;
-    height: 145px;}
-.vimeo1 {
-    background-image: url(../img/main%20photo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 16px;  
-    padding-bottom: 45px;
-    padding-left: 17px;
-}    
-
-@media (min-width: 420px) {
-.video1 {
-    width: 93%;
-    height: 175px;
+footer {
+    text-align: center;
 }
-.vimeo1 {
-    background-image: url(../img/main%20photo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 20px;  
-    padding-bottom: 140px;
-    padding-left: 20px;
-}
-    
-@media (min-width: 500px) {
-.video1 {
-    width: 93%;
-    height: 220px;
-}
-.vimeo1 {
-    background-image: url(../img/main%20photo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 20px;  
-    padding-bottom: 140px;
-    padding-left: 27px;
-}
-        
-    
-@media (min-width: 640px) {
-.video1 {
-    width: 93%;
-    height: 290px;
-}
-.vimeo1 {
-    background-image: url(../img/main%20photo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 30px;  
-    padding-bottom: 140px;
-    padding-left: 43px;
-}
-
-
-    
-@media (min-width: 768px) {
-    
-
-	ul.navbar-nav {
-		display: block;
-	}
-	
-	#logo {
-		text-align: left;
-	}
-}    
-
-    
-@media (min-width: 768px) {
-.video1 {
-    width: 93%;
-    height: 355px;
-}
-.vimeo1 {
-    background-image: url(../img/main%20photo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 40px;  
-    padding-bottom: 155px;
-    padding-left: 49px;
-}
-
-@media (min-width: 992px) {
-.video1 {
-    width: 93%;
-    height: 483px;
-}
-.vimeo1 {
-    background-image: url(../img/main%20photo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 47px;  
-    padding-bottom: 200px;
-    padding-left: 61px;
-}
-
-
 
 
 @media (min-width: 1200px) {
 .video1 {
-    width: 92%;
-    height: 550px;
-}
+    height: 560px;}
 .vimeo1 {
     background-image: url(../img/main%20photo.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 65px;  
-    padding-bottom: 245px;
-    padding-left: 80px;
+    padding-bottom: 262px;
+    padding-right: 28px;
+}    
+
+    
+@media (max-width: 600px) {
+.video1 {
+    height: 130px;}
+.vimeo1 {
+    background-image: url(../img/main%20photo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 10px;  
+    padding-bottom: 152px;
+    padding-left: 12px;
 }    
     
-    
 
+
+@media (max-width: 992px) {
+.video1 {
+    height: 300px;}
+.vimeo1 {
+    background-image: url(../img/main%20photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 65px;  
+    padding-bottom: 22px;
+    padding-right: 28px;
+}
+
+    
+           
