@@ -18,6 +18,31 @@
         <link rel="stylesheet" href="CSS/slidebars-theme.css">
         <link rel="stylesheet" href="CSS/misestilos.css">
 		
+        <link rel="stylesheet" type="text/css" href="CSS/freewall.css">
+		<link rel="stylesheet" type="text/css" href="CSS/pinterest-style.css">
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/freewall.js"></script>
+		<script type="text/javascript" src="js/jquery.sliphover.min.js"></script>
+		<style type="text/css">
+			body {
+				background: rgba(231, 231, 231, 0.43);
+			}
+			.free-wall {
+				margin: 15px;
+			}
+			.brick {
+				width: 221.2px;
+			}
+			.info {
+				padding: 15px;
+				color: #333;
+			}
+			.brick img {
+				margin: 0px;
+				padding: 0px;
+				display: block;
+			}
+		</style>
 		<!-- Shims -->
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -152,7 +177,7 @@
 				<!-- Menu -->
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="galeria1.html">3D</a></li>
+					<li><a href="#">3D</a></li>
 					<li><a href="#">Video</a></li>
 					<li><a href="#">Contact</a></li>
 					<li><a id="top-arrow" href="#top">^</a></li>
@@ -166,31 +191,108 @@
 				<div class="row">
 					<div id="content" class="col-xs-12 col-sm-9">				
 <!-- About -->
-<div id="about">
-	<div class="row">
-		<div class="col-xs-12">
-			<h1>Demo Reel 2013</h1>
-            <p class="vimeo1">
-                
-                
 
-    <iframe class="video1" src="//player.vimeo.com/video/103422185" width="720" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                <!--
-    <iframe class="video1" src="//player.vimeo.com/video/58722400" width="95%" height="500px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                -->
-    
-    </div>               
-                
-            </p>
-        
-			<p class="lead">¿Tienes una idea en mente y no sabes como plasmarla?
-    Yo puedo ayudarte.</p>
-			<p>Si alguna vez llega un pensamiento inesperado a tu mente atrapalo de inmediato y plasmalo, nunca dejes ir una idea por mas tonta que sea, recuerda que de pequeños pensamientos grandes historias pueden surgir.</p>
-			<p>Para desarrollar una web con visitas se necesita impactar al usuario. ¿Mi metodo? El impacto visual, la estética bien cuidada y una experiencia de usuario capaz de generar una perfecta ubicacion del usuario en la web, para que su visita sea efectiva y se convierta en un cliente.</p>
-			<p>El diseño 3D resulta dificilmente accesible para la mayoría. Por esto quiero aportar mis conocimientos para permitirte usar y personalizar elementos tridimensionales dentro de tus diseños.</p>
-		</div><!-- /.col-xs-12 -->
-	</div><!-- /.row -->
-</div><!-- /#about -->
+
+		<div id="freewall" class="free-wall" data-min-width="240" data-total-col="1" data-total-row="4047" data-wall-width="241" data-wall-height="4032" style="position: relative; height: 4032px;">
+		    <div class="brick" data-delay="1" data-height="428" data-width="221" data-state="move" id="1-2" style="width: 241px; position: absolute; opacity: 1; top: 0px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 458px;">
+		        <img src="img/Torreta_gameloft.jpg" width="100%" title="Turret Gameloft">
+		        <div class="info">
+		            <h5>Maya, Nuke, Photoshop</h5>
+		        </div>
+		    </div>
+		    <div class="brick" data-delay="2" data-height="243" data-width="221" data-state="move" id="2-2" style="width: 241px; position: absolute; opacity: 1; top: 473px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 256px;">
+		        <img src="img/Artega.jpg" width="100%" title="Artega 3D Model">
+		        <div class="info">
+		            <h5>Maya, Nuke, Photoshop</h5>
+		        </div>
+		    </div>
+		    <div class="brick" data-delay="3" data-height="428" data-width="222" data-state="move" id="3-2" style="width: 241px; position: absolute; opacity: 1; top: 744px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 458px;">
+		        <img src="img/Pirata%20coleccion.jpg" width="100%" title="The Pirates! <br><br> Band of Misfits">
+		        <div class="info">
+		            <h5>Maya, Nuke, Photoshop</h5>
+		        </div>
+		    </div>
+		    <div class="brick" data-delay="4" data-height="424" data-width="222" data-state="move" id="4-2" style="width: 241px; position: absolute; opacity: 1; top: 1217px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 454px;">
+		        <img src="img/Pirata.jpg" width="100%" title="this is the caption">
+		        <div class="info">
+		            <h3>Freewall</h3>
+		            <h5>Pinterest layout</h5>
+		        </div>
+		    </div>
+		    <div class="brick" data-delay="5" data-height="243" data-width="221" data-state="move" id="5-2" style="width: 241px; position: absolute; opacity: 1; top: 1686px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 256px;">
+		        <img src="img/imac.png" width="100%" title="this is the caption">
+		        <div class="info">
+		            <h3>Freewall</h3>
+		            <h5>Pinterest layout</h5>
+		        </div>
+		    </div>
+		    <div class="brick" data-delay="6" data-height="244" data-width="221" data-state="move" id="6-2" style="width: 241px; position: absolute; opacity: 1; top: 1957px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 257px;">
+		        <img src="img/6.jpg" width="100%" title="this is the caption">
+		        <div class="info">
+		            <h3>Freewall</h3>
+		            <h5>Pinterest layout</h5>
+		        </div>
+		    </div>
+		    <div class="brick" data-delay="7" data-height="428" data-width="221" data-state="move" id="7-2" style="width: 241px; position: absolute; opacity: 1; top: 2229px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 458px;">
+		        <img src="img/7.jpg" width="100%" title="this is the caption">
+		        <div class="info">
+		            <h3>Freewall</h3>
+		            <h5>Pinterest layout</h5>
+		        </div>
+		    </div>
+		    <div class="brick" data-delay="8" data-height="428" data-width="221" data-state="move" id="8-2" style="width: 241px; position: absolute; opacity: 1; top: 2702px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 458px;">
+		        <img src="img/8.jpg" width="100%" title="this is the caption">
+		        <div class="info">
+		            <h3>Freewall</h3>
+		            <h5>Pinterest layout</h5>
+		        </div>
+		    </div>
+		    <div class="brick" data-delay="9" data-height="243" data-width="221" data-state="move" id="9-2" style="width: 241px; position: absolute; opacity: 1; top: 3175px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 256px;">
+		        <img src="img/9.jpg" width="100%" title="this is the caption">
+		        <div class="info">
+		            <h3>Freewall</h3>
+		            <h5>Pinterest layout</h5>
+		        </div>
+		    </div>
+		    <div class="brick" data-delay="10" data-height="243" data-width="221" data-state="move" id="10-2" style="width: 241px; position: absolute; opacity: 1; top: 3446px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 256px;">
+		        <img src="img/10.jpg" width="100%" title="this is the caption">
+		        <div class="info">
+		            <h3>Freewall</h3>
+		            <h5>Pinterest layout</h5>
+		        </div>
+		    </div>
+		    <div class="brick" data-delay="11" data-height="297" data-width="222" data-state="move" id="11-2" style="width: 241px; position: absolute; opacity: 1; top: 3717px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 315px;">
+		        <img src="img/11.jpg" width="100%" title="this is the caption">
+		        <div class="info">
+		            <h3>Freewall</h3>
+		            <h5>Pinterest layout</h5>
+		        </div>
+		    </div>
+		</div>
+		
+		<script type="text/javascript">
+			var wall = new freewall("#freewall");
+			wall.reset({
+				selector: '.brick',
+				animate: true,
+				cellW: 200,
+				cellH: 'auto',
+				onResize: function() {
+					wall.fitWidth();
+				}
+			});
+			
+			wall.container.find('.brick img').load(function() {
+				wall.fitWidth();
+			});
+
+			//call sliphover
+			$('#freewall').sliphover();
+
+
+		</script>
+	
+<div class="sliphover-container" style="width: 196px; height: 294px; position: absolute; overflow: hidden; top: 323px; left: 225.65625px; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; z-index: 999;"></div><div class="sliphover-container" style="width: 241px; height: 362px; position: absolute; overflow: hidden; top: 136px; left: 15px; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; z-index: 999;"></div></body>
 
 <!-- Download -->
 <div id="download">
@@ -225,7 +327,7 @@
 		<ul class="sb-menu">
 			<li><img src="img/logojavi.png" alt="Slidebars"></li>
 			<li class="sb-close"><a href="index.html">Home</a></li>
-			<li class="sb-close"><a href="galeria1.html">3D</a></li>
+			<li class="sb-close"><a href="#">3D</a></li>
 			<li class="sb-close"><a href="#">Video</a></li>
 			<li class="sb-close"><a href="#">Contacto</a></li>
 			<li class="sb-close"><a href="#">Github</a></li>
@@ -369,18 +471,8 @@
 				});
 			}) (jQuery);
 		</script>
-		<!--video-->
-    
-<script src="index.files/html5video/html5ext.js" type="text/javascript"></script>    
 
-    <script src="js/leanbackPlayer.es.js"></script>
-
-    <script>
-        $('#demo1').videoUI({
-  'autoHide':false,
-  'volumeMedia': 1
-});    
-    </script>    
+        
 
 		<!-- Form Validation -->
 		<script src="http://plugins.adchsm.me/slidebars/scripts/form-validation.js"></script>

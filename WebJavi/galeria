@@ -152,7 +152,7 @@
 				<!-- Menu -->
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="galeria1.html">3D</a></li>
+					<li><a href="#">3D</a></li>
 					<li><a href="#">Video</a></li>
 					<li><a href="#">Contact</a></li>
 					<li><a id="top-arrow" href="#top">^</a></li>
@@ -225,7 +225,7 @@
 		<ul class="sb-menu">
 			<li><img src="img/logojavi.png" alt="Slidebars"></li>
 			<li class="sb-close"><a href="index.html">Home</a></li>
-			<li class="sb-close"><a href="galeria1.html">3D</a></li>
+			<li class="sb-close"><a href="#">3D</a></li>
 			<li class="sb-close"><a href="#">Video</a></li>
 			<li class="sb-close"><a href="#">Contacto</a></li>
 			<li class="sb-close"><a href="#">Github</a></li>
