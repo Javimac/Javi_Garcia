@@ -20,8 +20,18 @@
 		<link rel="stylesheet" href="CSS/style.css">
         <link rel="stylesheet" href="CSS/slidebars-theme.css">
         <link rel="stylesheet" href="CSS/misestilos.css">
+        <link rel="stylesheet" href="CSS/stylos_flip.css">
+        
 		
-
+        <script type="text/javascript">	
+	function changeClass(){
+		if(document.getElementById("block").className == "block")
+			document.getElementById("block").className += " rotated";
+		else
+			document.getElementById("block").className = "block";
+	}
+	</script>
+        
 		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="js/freewall.js"></script>
 		<script type="text/javascript" src="js/jquery.sliphover.min.js"></script>
@@ -192,102 +202,27 @@
 			<div class="container">
 				<div class="row">
 					<div id="content" class="col-xs-12 col-sm-9">				
-<!-- About -->
+<!-- About 
 
-
-		<div id="freewall" class="free-wall" data-min-width="240" data-total-col="1" data-total-row="4047" data-wall-width="241" data-wall-height="4032" style="position: relative; height: 4032px;">
-		    <div class="brick" data-delay="1" data-height="428" data-width="221" data-state="move" id="1-2" style="width: 241px; position: absolute; opacity: 1; top: 0px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 458px;">
-		        <img src="img/Torreta_gameloft.jpg" width="100%" title="Turret <br><br> Cliente: <br> Gameloft">
-		        <div class="info">
-		            <h5>Maya, Nuke, Photoshop</h5>
-		        </div>
-		    </div>
-		    <div class="brick" data-delay="2" data-height="243" data-width="221" data-state="move" id="2-2" style="width: 241px; position: absolute; opacity: 1; top: 473px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 256px;">
-		        <img src="img/Artega.jpg" width="100%" title="Artega 3D Model">
-		        <div class="info">
-		            <h5>Maya, Nuke, Photoshop</h5>
-		        </div>
-		    </div>
-		    <div class="brick" data-delay="3" data-height="428" data-width="222" data-state="move" id="3-2" style="width: 241px; position: absolute; opacity: 1; top: 744px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 458px;">
-		        <img src="img/Pirata_coleccion.jpg" width="100%" title="The Pirates! <br><br> Band of Misfits">
-		        <div class="info">
-		            <h5>Maya, Nuke, Photoshop</h5>
-		        </div>
-		    </div>
-		    <div class="brick" data-delay="4" data-height="424" data-width="222" data-state="move" id="4-2" style="width: 241px; position: absolute; opacity: 1; top: 1217px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 454px;">
-		        <img src="img/Mundipharma.jpg" width="100%" title="Mundipharma <br><br> Campaña: <br> Rebelate conta el dolor">
-		        <div class="info">		            
-		            <h5>Maya, Photoshop, <br> After Effects</h5>
-		        </div>
-		    </div>
-		    <div class="brick" data-delay="5" data-height="243" data-width="221" data-state="move" id="5-2" style="width: 241px; position: absolute; opacity: 1; top: 1686px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 256px;">
-		        <img src="img/Porsche_Blinzy.jpg" width="100%" title="Porsche <br><br>Cliente: <br> Blinzy Studios">
-		        <div class="info">
-		            <h5>Maya, Photoshop, <br> After Effects</h5>
-		        </div>
-		    </div>
-		    <div class="brick" data-delay="6" data-height="244" data-width="221" data-state="move" id="6-2" style="width: 241px; position: absolute; opacity: 1; top: 1957px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 257px;">
-		        <img src="img/nightmare_room.jpg" width="100%" title="Bonus Stage <br><br> Game:<br>Nightmare House">
-		        <div class="info">  
-		            <h5>Maya, Photoshop, <br> After Effects</h5>
-		        </div>
-		    </div>
-		    <div class="brick" data-delay="7" data-height="428" data-width="221" data-state="move" id="7-2" style="width: 241px; position: absolute; opacity: 1; top: 2229px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 458px;">
-		        <img src="img/Cabinet.jpg" width="100%" title="Cabinet <br><br> Cliente:<br>The Fly Entertainment">
-		        <div class="info">
-		            <h5>Maya, Photoshop, <br> After Effects</h5>
-		        </div>
-		    </div>
-		    <div class="brick" data-delay="8" data-height="428" data-width="221" data-state="move" id="8-2" style="width: 241px; position: absolute; opacity: 1; top: 2702px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 458px;">
-		        <img src="img/Habitacion.jpg" width="100%" title="Room <br><br>Cliente:<br>The Fly Entertainment">
-		        <div class="info">
-		            <h5>Maya, Photoshop, <br> After Effects</h5>
-		        </div>
-		    </div>
-		    <div class="brick" data-delay="9" data-height="243" data-width="221" data-state="move" id="9-2" style="width: 241px; position: absolute; opacity: 1; top: 3175px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 256px;">
-		        <img src="img/super_hero.jpg" width="100%" title="Hero <br><br>Game:<br>Supe Hero">
-		        <div class="info">
-		            <h5>Maya, Photoshop</h5>
-		        </div>
-		    </div>
-		    <div class="brick" data-delay="10" data-height="243" data-width="221" data-state="move" id="10-2" style="width: 241px; position: absolute; opacity: 1; top: 3446px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 256px;">
-		        <img src="img/bmw.jpg" width="100%" title="BMW Serie 1 <br> Coupe 2008">
-		        <div class="info">
-		            <h5>Maya, Nuke, Photoshop</h5>
-		        </div>
-		    </div>
-		    <div class="brick" data-delay="11" data-height="297" data-width="222" data-state="move" id="11-2" style="width: 241px; position: absolute; opacity: 1; top: 3717px; left: 0px; -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s; height: 315px;">
-		        <img src="img/logo_bici.jpg" width="100%" title="Logo <br><br> Custom Bikes">
-		        <div class="info">
-		            <h5>Photoshop, Illustrator</h5>
-		        </div>
-		    </div>
+<body class="simple">
+	<div id="container">
+	<div class="db">
+		<div id="block" class="block" onclick="changeClass()">
+			<div class="front side">
+				<img src="img/minicard_template_uk_front.jpg" width="100%" alt="Contact Card"/>
+			</div>
+			<div class="back side">
+                <img src="img/minicard_template_uk_tras.jpg" width="100%" title="Contact card">
+			</div>
 		</div>
-		
-		<script type="text/javascript">
-			var wall = new freewall("#freewall");
-			wall.reset({
-				selector: '.brick',
-				animate: true,
-				cellW: 200,
-				cellH: 'auto',
-				onResize: function() {
-					wall.fitWidth();
-				}
-			});
-			
-			wall.container.find('.brick img').load(function() {
-				wall.fitWidth();
-			});
-
-			//call sliphover
-			$('#freewall').sliphover();
-
-
-		</script>
-	
-<div class="sliphover-container" style="width: 196px; height: 294px; position: absolute; overflow: hidden; top: 323px; left: 225.65625px; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; z-index: 999;"></div><div class="sliphover-container" style="width: 241px; height: 362px; position: absolute; overflow: hidden; top: 136px; left: 15px; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; z-index: 999;"></div></body>
-
+	</div>
+	</div>
+</body>         
+       -->
+                        
+        <img src="img/minicard_template_uk_front.jpg" width="100%" alt="Contact Card"/>   
+        <img src="img/minicard_template_uk_tras.jpg" width="100%" title="Contact card">
+                        
 <!-- Download -->
 <div id="download">
 	<div class="row">

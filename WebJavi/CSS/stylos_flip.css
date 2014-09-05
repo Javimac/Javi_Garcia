@@ -1,0 +1,120 @@
+#container{
+	height: 360px;
+	width: 620px;
+	border: 1px solid #eee;
+	background-color: #f6f6f6;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f0f0f0));
+	position: relative;
+	margin: 20px auto;
+	font: 14px Arial, sans-serif;
+	text-shadow: 0 1px 0 #fff;
+	line-height: 1.3em;
+	
+	-webkit-perspective: 500;
+}
+.db{
+	border: 1px solid #fff;
+	height: 358px;
+	width: 618px;
+	
+	-webkit-transform-style: preserve-3d;
+}
+h3{
+	font-size: 18px;
+	margin-bottom: 15px;
+	line-height: 1em;
+}
+p{
+	margin-bottom: 10px;
+}
+.simple h3, .simple p{
+	padding: 20px;
+}
+.block {
+	position: absolute;
+	height: 260px;
+	width: 320px;
+	left: 150px;
+	top: 50px;
+	
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform 1.5s;
+}
+
+.rotated,
+.mover .block:hover{
+	-webkit-transform: rotateY(180deg);
+}
+
+.block .front{
+	z-index: 50;
+}
+.block .back{
+	z-index: 10;
+}
+.rotated .back, .mover .block:hover .back{
+	z-index: 99;
+}
+
+.side{
+	position: absolute;	
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+	
+	-webkit-backface-visibility: hidden;
+	-webkit-box-shadow: 0 2px 5px #ccc;
+}
+
+.front{
+	color: #fff;
+	background-color: #000;
+	height: 260px;
+	width: 320px;
+
+	
+}
+.front img{ }
+
+.back{
+	background-color: #fff;
+	height: 260px;
+	width: 320px;
+	
+	-webkit-transform: rotateY(180deg);
+}
+
+.wrapper{
+	position:relative;
+	-webkit-backface-visibility: hidden;
+}
+.goback{
+	position: absolute;
+	top: 10px;
+	left: -1px;
+	color: #576a01;
+	background: #c5d790;
+	padding: 5px;
+	margin-left: 25px;
+	text-shadow: 0 1px 0 #ecf6de;
+	-webkit-backface-visibility: hidden;
+	-webkit-box-shadow: 1px 1px 2px #8d996d;
+}
+.goback:hover{
+	cursor: pointer;
+}
+.goback:before{
+	width: 0;
+	height: 0;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	border-right: 10px solid #c5d790;
+
+	position: absolute;
+	content: "";
+	left: -10px;
+	top: 0px;
+	
+	-webkit-backface-visibility: hidden;
+}
+.back .content{
+	padding: 50px 25px;
+}

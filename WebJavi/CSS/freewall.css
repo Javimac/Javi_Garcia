@@ -10,7 +10,7 @@
 html, body, div, span, applet, object, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+ strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -33,11 +33,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	background: rgba(231, 231, 231, 0.43);
 	line-height: 1.125em;
-	color: white;
+	color: Black;
 	max-width: 1920px;
 	margin: 0 auto;
 	position: relative;
-	font-family:  Helvetica, Arial, Tahoma;
+	font-family:  Open Sans, sans-serif;
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
 }
 ol, ul {
@@ -47,7 +47,7 @@ ol, ul {
 }
 h1, h2, h3, h4, h5, h6 {
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
-	font-family:Georgia, Helvetica, Tahoma;
+	font-family: Open Sans, sans-serif;
 	margin: 10px 0;
 	font-weight: normal;
 }
@@ -85,7 +85,7 @@ h2 {
 	cursor: pointer;
 }
 code, pre {
-	font-family: Monaco, Menlo, Consolas;
+	font-family: Open Sans, sans-serif;
 	font-size: 1em;
 	color: #FFFFDE;
 	padding: 0 3px 2px;
