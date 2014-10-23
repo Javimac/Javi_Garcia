@@ -179,7 +179,12 @@ p {
     color: black;
 }
 
+.lead {text-align: center;
+        font-size: 30px;
+        
+    
 
+}
 
 .monitor {
     height: 100%;
